@@ -1,0 +1,98 @@
+.free
+	.BloqueCentrado
+		.Uno
+			background: $blanco
+			p
+				text-align: center
+				font-size: 2.1em
+				font-weight: 400
+				color: $negro
+				margin: 23px 0px 0px 0px
+			.UnoHijo
+				display: flex
+				justify-content: center	
+		.Dos
+			background: #fff
+			display: flex
+			justify-content: center
+			.CardPrecio
+				margin-top: 70px
+				margin-bottom: 40px
+				width: 300px
+				-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.35)
+				box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.35)
+				.CuerpoCard
+					padding: 10px 20px
+					.Contenedor1
+						display: flex
+						flex-direction: column
+						h3
+							text-align: center
+							font-size: 27px
+						p
+							text-align: center
+							font-size: 20px
+							color: $rojo
+							font-weight: 850
+					.Autor
+						text-align: justify	
+					.TextoCurso
+						text-align: justify	
+					.Contenedor2
+						display: flex
+						justify-content: center
+						.BotonCardIrAlCurso
+							margin-top: 20px
+							background: $rojo
+							border-color: $rojo
+							color: $blanco
+							&:hover
+								background: $blanco
+								color: $rojo	
+.main			
+	.Paquetes
+		margin-top: 50px
+		.Contenedor1
+			display: flex
+			justify-content: space-between
+			.BotonGratis
+				font-weight: 1000
+				color: #f44611				 	//Color de la letra de los recuadros del precio
+				cursor: default
+				font-size: 18px
+				.rebaja
+					text-decoration: line-through
+					font-size: 15px
+					color: #c9ad11
+				.rebajado
+					
+		.Contenedor2
+			display: flex
+			justify-content: center
+			.BotonIrAlCurso
+				margin-top: 20px
+				background: $rojo
+				border-color: $rojo
+				color: $blanco
+				&:hover
+					background: $blanco
+					color: $rojo
+		.descuento
+			h3
+				color: red
+				text-align: center
+
+	.MeConoce			
+		.BloquePrueba
+			display: flex
+			justify-content: center
+			.BloquePruebaHijo
+				width: 40%
+				.SobreMi
+					font-size: 2em
+					text-align: center
+					margin: 0
+				.card-body
+					p
+						text-align: justify
+

@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,600;1,700&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css"><!--Accediendo a los iconos-->
+	<!-- <link rel="stylesheet" href="css/estilos.css"> -->
+	<link rel="stylesheet" href="css/faqs.css">
+	<title>🐱‍🏍Preguntas Frecuentes</title>
+</head>
+<body>
+<div class="ContenedorGeneral"><!--Div que resuelve el problema de la barra de desplazamiento horizontal-->
+	<header>
+		<!--con navbar-expand-md le estamos diciendo al programa que esconda el menú de navegación y lo reemplaze con el botón de menpu desplegable
+		a partir del tamaño md-->	
+		<nav class="MenuNav navbar navbar-expand-md navbar-dark fixed-top">
+			<a href="index.html" class="navbar-brand">Laffonte</a>
+			
+<!--Botón para desplegar el menú de navegación cuando nos el usuario entra a la página WEB desde dispositivos de tamaño tablet o más pequeños
+-->
+			<button class="navbar-toggler" type="buton" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Menu de Navegacion">
+				<span class="BotonDesplegable navbar-toggler-icon"></span>
+			</button>
+<!-- id="navbar" es el id del menú de navegación-->			
+			<div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav mr-auto">
+<!--Submenú del menú desplegable de Cursos-->				
+					<li class="nav-item dropdown">
+						<a href="#" class="nav-link dropdown-toggle" id="menu-cursos" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Paquetes
+						</a>
+						<div class="Elementos dropdown-menu" aria-labelledby="menu-cursos">
+							<a href="Algebra.html" class="dropdown-item">Algebra Ingreso Politécnico (Curso GRATIS)</a>
+                            <a href="Tres-Cursos-Basicos.html" class="dropdown-item">3 Cursos Básicos (Paquete Básico)</a>
+							<a href="Matematicas-Ingreso-Politecnico.html" class="dropdown-item">Matemáticas Ingreso Politécnico (Paquete Regular)</a>
+							<a href="Tutorados.html" class="dropdown-item">Tutorados Selectos (Paquete Premium)</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a href="FAQS.html" class="nav-link">Preguntas Frecuentes</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+				<div class="ajustarCaja">  
+					<div class="BloqueBajoHeader row d-flex flex-row justify-content-start">
+						<div class="col-12 col-md-6 Titulo" >
+							<!-- <div class="Titulo"> -->
+								<p>PREGUNTAS FRECUENTES</p>
+							<!-- </div> -->
+						</div>
+					</div>
+				</div>
+			</header>
+
+
+	<div class="main">
+		<div class="row">
+			<div class="col">
+				<!-- Lista con enlaces -->
+				<ul class="list-group">
+					<a href="#Faq_1" class="list-group-item list-group-item-action elemento-lista" id="Faq_1">
+						<div>
+							<div>
+								<h4>¿Cuáles son los paquetes de matemáticas disponibles?</h4>
+							</div>
+							<div>		
+								<p>
+									<br><br>
+									En Laffonte solo contamos con 3 modalidades o paquetes:<br><br>
+									1._ 3 cursos básicos (Paquete basico) <br>
+									2._Matemáticas Ingreso Politécnico (Paquete Regular) <br>
+									3._Tutorados Selectos (Paquete Premium) <br><br>
+									Cada uno de estos Paquetes con la finalidad de ayudarte a preparar la sección de Matemáticas del examen de admisión al IPN.
+									Cada uno de los Paquetes cuenta con cursos especializados sólo para el examen de admisión al Instituto Politécnico Nacional, escritos y producidos por Vlady Hernández recién egresado de Ingeniería Mecatrónica por el IPN con la ayuda de estudiantes universitarios que actualmente estudian dentro del mismo IPN.<br><br> 
+									Ten la seguridad que sabemos lo que viene en los exámenes de admisión y no dudes que eso lo compartimos en estos Paquetes de Matemáticas.
+									Lo mejor de todo es que son cursos en línea, para que tú puedas reproducirlos y estudiarlos a la hora que quieras y al alcance de un solo click.
+
+								</p>
+							</div>
+						</div>
+					</a>
+					<!-- next question -->
+					<a href="#Faq_2" class="list-group-item list-group-item-action elemento-lista" id="Faq_2">
+						<div>
+							<div>
+								<h4>¿Qué contiene el Paquete “3 Curso Básicos”?</h4>
+							</div>
+							<div>
+								<p>
+									<br><br>
+									Este es el Paquete Básico, solamente consta de 3 cursos especializados en línea que cubren solo estas 3 asignaturas:
+									<br><br>
+									•	Algebra <br>
+									•	Cálculo Diferencial <br>
+									•	Cálculo Integral <br><br>
+									El resto de las asignaturas de Matemáticas para preparar tu examen de admisión al IPN, se encuentran en el Paquete de Matemáticas Ingreso Politécnico.
+
+								</p>
+							</div>
+						</div>
+					</a>
+					<!-- next question -->
+					<a href="#Faq_3" class="list-group-item list-group-item-action elemento-lista question-medium" id="Faq_3">
+						<div>
+							<div>
+								<h4>¿Qué contiene el paquete de Matemáticas Ingreso Politécnico?</h4>
+							</div>
+							<div>
+								<p>
+									<br><br>
+								Este es el Paquete Regular, incluye los 7 cursos especializados en línea que cubren todas las Asignaturas de la sección de matemáticas del examen de admisión al IPN. <br><br>
+								•	Algebra<br>
+								•	Cálculo Diferencial<br>
+								•	Cálculo Integral<br>
+								•	Razonamiento Matemático<br>
+								•	Geometría y Trigonometría<br>
+								•	Geometría Analítica<br>
+								•	Probabilidad y Estadística<br>
+								</p>
+							</div>
+						</div>
+					</a>
+					<!-- next question -->
+					<a href="#Faq_4" class="list-group-item list-group-item-action elemento-lista" id="Faq_4">
+						<div>
+							<div>
+								<h4>¿Qué incluye el Paquete de Tutorados Selectos?</h4>
+							</div>
+							<div>
+								<p>
+									<br><br>
+								Este Paquete Premium incluye los 7 cursos especializados en línea que cubren todas las Asignaturas de la sección de matemáticas del examen de admisión al IPN.<br><br>
+								•	Algebra<br>
+								•	Cálculo Diferencial<br>
+								•	Cálculo Integral<br>
+								•	Razonamiento Matemático<br>
+								•	Geometría y Trigonometría<br>
+								•	Geometría Analítica<br>
+								•	Probabilidad y Estadística<br><br>
+								Además de esto tendrás acceso a asesorías personalizadas ilimitadas conmigo, Vlady Hernández<br><br>
+								Esto es lo que aprenderás en estas asesorías personalizadas:<br>
+								<span>LA VENTAJA DE TENER LA MEJOR INFORMACIÓN/PREPARACIÓN PARA TU EXÁMEN DE ADMISIÓN AL IPN</span><br><br>
+								-Tendrás la resolución de cualquier duda sobre Matemáticas o Física que tengas mientras preparamos tu examen de admisión.<br><br>
+								-Clases particulares sobre cualquier asignatura de Matemáticas <br><br>
+								-Te ayudaré a tener claridad y estructura para planificar tu estudio desde hoy hasta el día de tu examen de admisión<br><br>
+								-Los mejores concejos y recomendaciones sobre lo que yo y alumnos politécnicos sabemos para que pasar tu examen de admisión sea lo más fácil posible.<br><br>
+								-Asesoría sobre dónde meter tus opciones, primea y segunda vuelta, cambio de carrera además de muchas estrategias más que solo como Politécnicos sabemos cómo funcionan y se aplican en tu caso particular.<br><br>
+								-Tendrás mi WhatsApp personal para que me preguntes lo que quieras cuando tú quieras.<br><br>
+								<span>ESTO ES SOLO LA PUNTA DEL ICEBERG, SI QUIERES APRENDER TODO ESTO INSCRÍBETE, Y RECUERDA QUE LO MEJOR ESTÁ RESERVADO ÚNICAMENTE PARA LOS ASISTENTES…</span><br>
+								Espero verte pronto en Tutorados Selectos, recuerda que hay cupo limitado.<br>
+								
+								</p>
+							</div>
+						</div>
+					</a>
+					<!-- next question -->
+					<a href="#Faq_5" class="list-group-item list-group-item-action elemento-lista question-medium" id="Faq_5">
+						<div>
+							<div>
+								<h4>¿Qué abarcan los Paquetes y los Cursos en Laffonte.com?</h4>
+							</div>
+							<div>
+								<p>
+									<br><br>
+									Ambos sólo abarcan el área de Matemáticas para preparar el examen de Admisión al Instituto Politécnico Nacional
+								</p>
+							</div>
+						</div>
+					</a>
+					<!-- next question -->
+					<a href="#Faq_6" class="list-group-item list-group-item-action elemento-lista" id="Faq_6">
+						<div>
+							<div>
+								<h4>¿Los cursos son clases vía zoom?</h4>
+							</div>
+							<div>
+								<p><br><br>No, no son clases por vía zoom, son cursos grabados, especializados y en línea. No hay horario fijo para tomar las clases, las puedes tomar a la hora que quieras sea donde sea que te encuentres.</p>
+							</div>
+						</div>
+					</a>
+					<!-- next question -->
+					<a href="#Faq_7" class="list-group-item list-group-item-action elemento-lista" id="Faq_7">
+						<div>
+							<div>
+								<h4>Qué tipo de clases son, son en vivo, grabadas…?</h4>
+							</div>
+							<div>
+								<p>
+									<br><br>Todas las clases de los cursos son grabadas a excepción de las asesorías personalizadas que son en vivo y nuevas clases/extra que se agreguen a los cursos con el tiempo.
+								</p>
+							</div>
+						</div>
+					</a>
+					<!-- next question -->
+					<a href="#Faq_8" class="list-group-item list-group-item-action elemento-lista question-little" id="Faq_8">
+						<div>
+							<div>
+								<h4>¿Quién creo los cursos?</h4>
+							</div>
+							<div class="row">
+								<p>
+									<br><br>
+									Los cursos fueron escritos por Vlady Hernández, egresado en 2021 de la licenciatura en Ingeniería Mecatrónica del Instituto Politécnico Nacional.<br><br> Quien desde 2016 ha ayudado a aspirantes a pasar su examen de admisión al IPN, puedes darle un ojo a su Facebook e Instagram personales, los cuales los puedes encontrar dentro de esta misma WEB (hasta abajo toda esta información), para conocerlo a mayor profundidad. <br><br>No olvides seguir el Canal de Youtube donde subiremos más contenido que te ayudará a preparar tu examen de admisión al IPN.
+									<div class="fhoto d-flex justify-content-center col-12">
+										<img src="media/FotoInstructor.jpg" alt="" height="300px">
+									</div>
+								</p>
+							</div>
+						</div>
+					</a>
+					<!-- next question -->
+					<a href="#Faq_9" class="list-group-item list-group-item-action elemento-lista" id="Faq_9">
+						<div>
+							<div>
+								<h4>¿Existe alguna especie de reembolso o garantía? </h4>
+							</div>
+							<div>
+								<p>
+									<br><br>
+									Sí, existe una garantía de 30 días una vez comprado alguno de estos dos Paquetes: Paquete de Matemáticas Ingreso Politécnico o Paquete 3 Cursos Básicos, si no te gustó o no te sirvió puedes pedir el reembolso total de los Paquetes antes mencionados, te daremos por completo lo que pagaste por él Paquete de Reembolso. 
+									<br><br>Estamos tan seguros que la información y las clases que ofrecemos son de tal calidad que ofrecemos este tipo de reembolsos si no te convence este Paquete.
+								</p>
+							</div>
+						</div>
+					</a>
+					<!-- next question -->
+					<a href="#Faq_10" class="list-group-item list-group-item-action elemento-lista" id="Faq_10">
+						<div>
+							<div>
+								<h4>¿Cómo pago en tienda OXXO? </h4>
+							</div>
+							<div>
+								<p>
+									<br><br>
+									En caso de que vayas a pagar en Oxxo, da click en <b>Modificar</b> en la opción de Dinero en Mercado Pago.<br><br>
+									<img src="media/imagenes/mercadopago.jpg" width="250px" height="auto"><br><br>
+									Seleccionas Oxxo como medio de pago.<br><br>
+									<img src="media/imagenes/oxxo.jpg" width="250px" height="auto"><br><br>
+									Al dar click en “Pagar”, se te desbloqueará tu ticket de pago <br><br>
+									<img src="media/imagenes/cuenta.jpg" width="250px" height="auto"><br><br>
+									Posterior a ello, Dirígete a cualquier tienda OXXO, avisa en la caja que quieres hacer un pago y
+									muestra el código de barras de tu ticket de pago para escanear.<br><br>
+									¡Y Listo! El pago se acreditará en 1 o 2 días hábiles y recibirás un e-mail de confirmación.<br>
+									En cuanto se procese tu pago te haremos llegar el link de los cursos a tu correo.
+
+								</p>
+							</div>
+						</div>
+					</a>
+					<a href="#Faq_11" class="list-group-item list-group-item-action elemento-lista question-medium" id="Faq_11">
+						<div>
+							<div>
+								<h4>  ¿Cuánto tiempo tarda después de procesar el pago, el desbloqueo de los cursos? </h4>
+							</div>
+							<div>
+								<p>
+									<br><br>
+									En cuanto se procese tu pago, a nosotros mediante nuestra plataforma de pagos nos llegará una notificación
+									con tu nombre e e-mail, donde sabremos que ya has pagado alguno de nuestros Paquetes.<br><br>
+									Al correo que registraste para hacer el pago nosotros te haremos llegar un link con el contenido del Paquete
+									que adquiriste.<br><br>
+									En el transcurso del día siguiente que se procesó tu pago te haremos llegar el link con el contenido de tu Paquete recién adquirido.<br><br>
+									Si tienes alguna duda o comentario, no dudes en contactarnos en info.laffonte.com@gmail.com o envíanos un mensaje a cualquiera de
+									nuestras redes sociales.
+								</p>
+							</div>
+						</div>
+					</a>
+					<!-- next question -->
+					<a href="#Faq_12" class="list-group-item list-group-item-action elemento-lista pregunta question-long" id="Faq_12">
+						<div>
+							<div>
+								<h4>¿Cómo le hago si ya compré el Paquete regular  ( Matemáticas Ingreso Politécnico )  y ahora quiero ser un Tutorado Selecto ( Paquete Premium )? </h4>
+							</div>
+							<div>
+								<p>
+									<br><br>
+									Para la gente que ya adquirió el Paquete Regular, Matemáticas Ingreso Politécnico y quiere ser un Tutorado Selecto existe un descuento especial, sólo envíanos un correo a info.laffonte.com@gmail.com con tu comprobante de pago del Paquete de Matemáticas Ingreso Politécnico para que te hagamos válido tu descuento especial para ser un Tutorado Selecto. <br><br>
+									Este descuento especial sólo aplica para las personas que ya han adquirido el Paquete de Matemáticas Ingreso Politécnico.
+
+								</p>
+							</div>
+						</div>
+					</a>
+					<!-- next question -->
+					<a href="#Faq_13" class="list-group-item list-group-item-action elemento-lista" id="Faq_13">
+						<div>
+							<div>
+								<h4>¿Cuál es el precio de los Paquetes? </h4>
+							</div>
+							<div>
+								<p>
+									<br><br>
+									El precio de cada uno de los 3 Paquetes lo puedes mirar en la página principal en www.Laffonte.com , recordando que todos los precios están dados en Pesos Mexicanos (MXN).
+								</p>
+							</div>
+						</div>
+					</a>
+					<!-- next question -->
+					<a href="#Faq14" class="list-group-item list-group-item-action elemento-lista" id="Faq14">
+						<div>
+							<div>
+								<h4>¿Cuál es la duración de los cursos? </h4>
+							</div>
+							<div>
+								<p>
+									<br><br>
+									En promedio cada curso cuenta con 27 Clases.<br><br>
+									Cada curso cuenta en promedio con 20 horas de contenido grabado.<br><br>
+									Cada curso de matemáticas está compuesto por:<br><br>
+									•	Explicación de cada tema que se pregunta en el área de matemáticas del examen de admisión al Politécnico<br><br>
+									•	Ejercicios de práctica para reforzar los temas<br><br>
+									•	Ejercicios clave o tipo examen que sabemos que son importantes que estudies<br><br>
+									•	Un formulario que se forma conforme avancemos en el curso<br><br>
+									El Paquete 3 Cursos básicos consta de 3 cursos<br><br>
+									El Paquete Matemáticas Ingreso Politécnico consta de 7 cursos<br><br>
+									El Paquete Tutorados Selectos consta de 7 cursos más Asesoría Personalizada<br><br>
+								</p>
+							</div>
+						</div>
+					</a>
+					<!-- next question -->
+
+				</ul>
+			</div>
+		</div>
+
+
+		<footer>
+			<div class="row">
+				<div class="Contacto col-12 col-md-6">
+					<h4 class="TituloContacto">Contacto</h4>
+					<p class="Correo">info.laffonte.com@gmail.com</p>
+				</div>
+				<div class="Iconos col-12 col-md-6">
+					<h3 class="TituloContacto2">¿Quieres conocerme?</h3>
+					<a target="_blank" href="https://www.youtube.com/channel/UC0EkppPk4grAiUE3KMw0h5w?view_as=subscriber" class="youtube"><i class="fa fa-youtube"></i></a>
+					<a target="_blank" href="https://www.facebook.com/vladsson.hernandezgonzalez" class="facebook"><i class="fa fa-facebook-square"></i></a>
+					<a target="_blank" href="https://www.instagram.com/vladymirfidelhernandez/?hl=en" class="instagram"><i class="fa fa-instagram"></i></a>	
+				</div>
+			</div>
+			<div class="Negro row">
+				<div class="col-12">
+					<p>Laffonte-2022</p>
+				</div>
+			</div>
+		</footer>
+
+	
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="faqs.js"></script>
+</div>	
+</body>
+</html>

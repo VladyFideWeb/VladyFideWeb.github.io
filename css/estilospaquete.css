@@ -1,0 +1,541 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: Raleway, sans-serif;
+  font-size: 16px;
+  padding-top: 40px;
+  background: #fff; }
+
+.ContenedorGeneral {
+  width: 97%;
+  max-width: auto;
+  margin: auto; }
+
+header .MenuNav {
+  background: #603085;
+  padding: 0em 2.5em;
+  font-size: 1.3em; }
+  header .MenuNav .dropdown-item {
+    color: #000; }
+
+footer {
+  background: #f2f2f2;
+  margin: 0em -1.2em;
+  padding: 0em 1.2em; }
+  footer .Negro {
+    background: #000;
+    color: #fff;
+    margin: 0em -1.2em;
+    text-align: center;
+    padding: 10px 0; }
+    footer .Negro p {
+      margin: auto; }
+  footer .Contacto {
+    padding: 20px 0; }
+    footer .Contacto .TituloContacto {
+      text-align: center;
+      margin-bottom: 8px;
+      color: #603085; }
+    footer .Contacto .Correo {
+      text-align: center;
+      font-size: 26px;
+      margin-bottom: 8px; }
+    footer .Contacto .CentradoNumero {
+      display: flex;
+      justify-content: center;
+      text-align: center; }
+      footer .Contacto .CentradoNumero .IconoWhats {
+        padding: 0px;
+        display: inline-block;
+        margin: 0 20px;
+        width: 50px;
+        font-size: 22px;
+        color: #fff;
+        background: #000;
+        border-radius: 100px;
+        background: #25d366; }
+      footer .Contacto .CentradoNumero p {
+        margin: 5px -9px; }
+  footer .Iconos {
+    text-align: center;
+    padding: 20px 0; }
+    footer .Iconos .TituloContacto2 {
+      text-align: center;
+      margin-bottom: 8px;
+      color: #603085; }
+    footer .Iconos a {
+      padding: 10px;
+      display: inline-block;
+      margin: 0 20px;
+      width: 50px;
+      font-size: 22px;
+      color: #fff;
+      background: #000;
+      border-radius: 100px; }
+      footer .Iconos a.youtube {
+        background: #ff0000; }
+      footer .Iconos a.facebook {
+        background: #3b5998; }
+      footer .Iconos a.instagram {
+        background: #833ab4; }
+
+.slogan .PrimeraColumna {
+  background: #c8e5eb; }
+  .slogan .PrimeraColumna h1 {
+    text-align: center;
+    margin-top: 40px;
+    color: #603085; }
+  .slogan .PrimeraColumna .parrafoSlogan {
+    text-align: center;
+    margin-top: 40px;
+    background: #c8e5eb;
+    color: #000;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 0px; }
+  .slogan .PrimeraColumna .contenedor1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    background: #c8e5eb; }
+    .slogan .PrimeraColumna .contenedor1 .BotonVerPromo {
+      margin-right: 5px;
+      background: #c8e5eb;
+      border-color: #603085;
+      color: #603085; }
+      .slogan .PrimeraColumna .contenedor1 .BotonVerPromo:hover {
+        background: #603085;
+        border-color: #603085;
+        color: #fff; }
+    .slogan .PrimeraColumna .contenedor1 .BotonPagarPaquete {
+      margin-left: 5px;
+      background: #ff3f20;
+      border-color: #ff3f20;
+      color: #fff; }
+      .slogan .PrimeraColumna .contenedor1 .BotonPagarPaquete:hover {
+        background: #ff2907;
+        border-color: #fff; }
+.slogan .SegundaColumna {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px; }
+.slogan .CentradoTexto {
+  display: flex;
+  justify-content: center; }
+  .slogan .CentradoTexto .TerceraColumna {
+    width: 65%; }
+    .slogan .CentradoTexto .TerceraColumna .TituloTexto {
+      font-size: 20px; }
+    .slogan .CentradoTexto .TerceraColumna .TituloTexto2 {
+      margin-top: 60px;
+      font-size: 28px; }
+    .slogan .CentradoTexto .TerceraColumna .FormatoLista {
+      font-size: 18px;
+      text-align: justify; }
+    .slogan .CentradoTexto .TerceraColumna p {
+      font-size: 18px;
+      text-align: justify; }
+    .slogan .CentradoTexto .TerceraColumna .contenedor2 {
+      margin-top: 40px;
+      margin-bottom: 40px;
+      display: flex;
+      justify-content: center; }
+      .slogan .CentradoTexto .TerceraColumna .contenedor2 .BotonPagarPaquete {
+        background: #ff3f20;
+        border-color: #ff3f20;
+        color: #fff; }
+        .slogan .CentradoTexto .TerceraColumna .contenedor2 .BotonPagarPaquete:hover {
+          background: #ff2907;
+          border-color: #fff; }
+.slogan .fondo {
+  background: #f2f2f2; }
+  .slogan .fondo .TuInstructor {
+    background: #f2f2f2;
+    margin-left: 70px;
+    margin-right: 70px; }
+    .slogan .fondo .TuInstructor .fotoInstructor {
+      display: flex;
+      justify-content: center;
+      flex-direction: column; }
+      .slogan .fondo .TuInstructor .fotoInstructor .centradoFoto .titulo {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 28px; }
+      .slogan .fondo .TuInstructor .fotoInstructor .centradoFoto .nombre {
+        text-align: center;
+        font-size: 20px; }
+      .slogan .fondo .TuInstructor .fotoInstructor .centradoFoto img {
+        max-width: 220px;
+        display: block;
+        margin: auto; }
+    .slogan .fondo .TuInstructor .textoInstructor {
+      margin-top: 80px;
+      text-align: justify;
+      font-size: 18px; }
+.slogan .Temario {
+  display: felx;
+  justify-content: center;
+  margin-top: 40px; }
+  .slogan .Temario .CuartaColumna {
+    width: 60%;
+    color: #000; }
+    .slogan .Temario .CuartaColumna .Titulo {
+      text-align: center;
+      font-size: 28px; }
+    .slogan .Temario .CuartaColumna p {
+      text-align: left; }
+.slogan .Recordatorio {
+  background: #f2f2f2;
+  margin-top: 40px; }
+  .slogan .Recordatorio p {
+    font-size: 18px;
+    padding: 40px 180px; }
+.slogan .ComienzaAhora .Centrado {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: center; }
+  .slogan .ComienzaAhora .Centrado .BotonPagarPaquete {
+    margin-left: 5px;
+    background: #ff3f20;
+    border-color: #ff3f20;
+    color: #fff; }
+    .slogan .ComienzaAhora .Centrado .BotonPagarPaquete:hover {
+      background: #ff2907;
+      border-color: #fff; }
+  .slogan .ComienzaAhora .Centrado p {
+    color: #000;
+    text-align: center;
+    font-size: 28px; }
+.slogan .contenedor {
+  display: flex;
+  justify-content: center; }
+  .slogan .contenedor .contenedorVideo {
+    width: 50%; }
+    .slogan .contenedor .contenedorVideo .video {
+      width: 100%;
+      height: auto;
+      margin: 60px auto; }
+
+@media screen and (min-width: 220px) {
+  header .MenuNav {
+    padding: 0em 2.5em;
+    background: #603085;
+    font-size: 16px; }
+    header .MenuNav .dropdown-item {
+      font-size: 14px;
+      white-space: normal; } }
+@media screen and (min-width: 375px) {
+  header .MenuNav {
+    padding: 0em 2.5em;
+    font-size: 16px; } }
+@media screen and (min-width: 425px) {
+  header .MenuNav {
+    font-size: 18px; } }
+@media screen and (min-width: 465px) {
+  header .MenuNav .dropdown-item {
+    white-space: nowrap; } }
+@media screen and (min-width: 768px) {
+  header .MenuNav {
+    font-size: 1.3em; }
+    header .MenuNav .dropdown-item {
+      font-size: 16px; } }
+@media screen and (min-width: 1440px) {
+  header .MenuNav {
+    padding: 0em 2.5em;
+    font-size: 1.5em; }
+    header .MenuNav .dropdown-item {
+      font-size: 18px; }
+    header .MenuNav .navbar-brand {
+      font-size: 24px; } }
+@media screen and (min-width: 1540px) {
+  header .MenuNav .dropdown-item {
+    font-size: 20px; } }
+@media screen and (min-width: 1930px) {
+  header .MenuNav {
+    font-size: 2em; }
+    header .MenuNav .dropdown-item {
+      font-size: 27px; }
+    header .MenuNav .navbar-brand {
+      font-size: 30px; } }
+@media screen and (min-width: 220px) {
+  .slogan .PrimeraColumna h1 {
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 0px; }
+  .slogan .PrimeraColumna .parrafoSlogan {
+    margin-top: 25px;
+    font-size: 22px;
+    padding: 0px 20px; }
+  .slogan .PrimeraColumna .contenedor1 {
+    margin-top: 25px;
+    margin-bottom: 50px; }
+    .slogan .PrimeraColumna .contenedor1 .BotonVerPromo {
+      font-size: 16px;
+      margin-bottom: 10px; }
+    .slogan .PrimeraColumna .contenedor1 .BotonPagarPaquete {
+      font-size: 16px; }
+  .slogan .CentradoTexto .TerceraColumna .contenedor2 .BotonPagarPaquete {
+    font-size: 19px; }
+  .slogan .ComienzaAhora .Centrado .BotonPagarPaquete {
+    font-size: 16px; } }
+@media screen and (min-width: 375px) {
+  .slogan .PrimeraColumna h1 {
+    font-size: 40px;
+    margin-top: 60px; }
+  .slogan .PrimeraColumna .parrafoSlogan {
+    margin-top: 30px;
+    font-size: 24px;
+    padding: 0px 10px; }
+  .slogan .PrimeraColumna .contenedor1 {
+    margin-top: 25px;
+    margin-bottom: 60px; }
+    .slogan .PrimeraColumna .contenedor1 .BotonVerPromo {
+      font-size: 21px;
+      margin-bottom: 14px; }
+    .slogan .PrimeraColumna .contenedor1 .BotonPagarPaquete {
+      font-size: 21px; }
+  .slogan .CentradoTexto .TerceraColumna .contenedor2 .BotonPagarPaquete {
+    font-size: 21px; }
+  .slogan .ComienzaAhora .Centrado .BotonPagarPaquete {
+    font-size: 20px; } }
+@media screen and (min-width: 425px) {
+  .slogan .PrimeraColumna .parrafoSlogan {
+    padding: 0px 15px; } }
+@media screen and (min-width: 485px) {
+  .slogan .PrimeraColumna .contenedor1 .BotonVerPromo {
+    font-size: 15px; }
+  .slogan .PrimeraColumna .contenedor1 .BotonPagarPaquete {
+    font-size: 15px; } }
+@media screen and (min-width: 555px) {
+  .slogan .PrimeraColumna .contenedor1 .BotonVerPromo {
+    font-size: 21px; }
+  .slogan .PrimeraColumna .contenedor1 .BotonPagarPaquete {
+    font-size: 21px; } }
+@media screen and (min-width: 768px) {
+  .slogan .PrimeraColumna h1 {
+    font-size: 45px;
+    margin-top: 70px; }
+  .slogan .PrimeraColumna .parrafoSlogan {
+    margin-top: 30px;
+    font-size: 26px;
+    padding: 0px 15px; }
+  .slogan .PrimeraColumna .contenedor1 {
+    margin-top: 25px;
+    margin-bottom: 70px; }
+    .slogan .PrimeraColumna .contenedor1 .BotonVerPromo {
+      font-size: 21px;
+      margin-bottom: 14px; }
+    .slogan .PrimeraColumna .contenedor1 .BotonPagarPaquete {
+      font-size: 21px; }
+  .slogan .CentradoTexto .TerceraColumna .contenedor2 .BotonPagarPaquete {
+    font-size: 21px; }
+  .slogan .ComienzaAhora .Centrado .BotonPagarPaquete {
+    font-size: 21px; } }
+@media screen and (min-width: 1024px) {
+  .slogan .PrimeraColumna h1 {
+    font-size: 45px;
+    margin-top: 75px; }
+  .slogan .PrimeraColumna .parrafoSlogan {
+    margin-top: 30px;
+    font-size: 30px;
+    padding: 0px 55px; }
+  .slogan .PrimeraColumna .contenedor1 {
+    margin-top: 30px;
+    margin-bottom: 75px; }
+    .slogan .PrimeraColumna .contenedor1 .BotonVerPromo {
+      font-size: 21px;
+      margin-bottom: 14px; }
+    .slogan .PrimeraColumna .contenedor1 .BotonPagarPaquete {
+      font-size: 21px; }
+  .slogan .CentradoTexto .TerceraColumna .contenedor2 .BotonPagarPaquete {
+    font-size: 21px; }
+  .slogan .ComienzaAhora .Centrado .BotonPagarPaquete {
+    font-size: 21px; } }
+@media screen and (min-width: 1440px) {
+  .slogan .PrimeraColumna h1 {
+    font-size: 45px;
+    margin-top: 75px; }
+  .slogan .PrimeraColumna .parrafoSlogan {
+    margin-top: 30px;
+    font-size: 32px;
+    padding: 0px 15px; }
+  .slogan .PrimeraColumna .contenedor1 {
+    margin-top: 30px;
+    margin-bottom: 75px; }
+    .slogan .PrimeraColumna .contenedor1 .BotonVerPromo {
+      font-size: 21px;
+      margin-bottom: 14px; }
+    .slogan .PrimeraColumna .contenedor1 .BotonPagarPaquete {
+      font-size: 21px; }
+  .slogan .CentradoTexto .TerceraColumna .contenedor2 .BotonPagarPaquete {
+    font-size: 21px; }
+  .slogan .ComienzaAhora .Centrado .BotonPagarPaquete {
+    font-size: 21px; } }
+@media screen and (min-width: 2560px) {
+  .slogan .PrimeraColumna h1 {
+    font-size: 50px;
+    margin-top: 80px; }
+  .slogan .PrimeraColumna .parrafoSlogan {
+    margin-top: 30px;
+    font-size: 40px;
+    padding: 0px 15px; }
+  .slogan .PrimeraColumna .contenedor1 {
+    margin-top: 30px;
+    margin-bottom: 80px; }
+    .slogan .PrimeraColumna .contenedor1 .BotonVerPromo {
+      font-size: 30px;
+      margin-bottom: 14px; }
+    .slogan .PrimeraColumna .contenedor1 .BotonPagarPaquete {
+      font-size: 30px; }
+  .slogan .CentradoTexto .TerceraColumna .contenedor2 .BotonPagarPaquete {
+    font-size: 30px; }
+  .slogan .ComienzaAhora .Centrado .BotonPagarPaquete {
+    font-size: 30px; } }
+@media screen and (min-width: 220px) {
+  .slogan .contenedor .contenedorVideo {
+    width: 85%; }
+    .slogan .contenedor .contenedorVideo .video {
+      margin: 50px auto; }
+  .slogan .CentradoTexto .TerceraColumna {
+    width: 70%; }
+    .slogan .CentradoTexto .TerceraColumna .TituloTexto2 {
+      font-size: 24px;
+      text-align: left; } }
+@media screen and (min-width: 375px) {
+  .slogan .CentradoTexto .TerceraColumna {
+    width: 80%; } }
+@media screen and (min-width: 768px) {
+  .slogan .contenedor .contenedorVideo .video {
+    margin: 70px auto; } }
+@media screen and (min-width: 975px) {
+  .slogan .contenedor .contenedorVideo {
+    width: 47%; }
+  .slogan .CentradoTexto .TerceraColumna {
+    width: 65%; }
+    .slogan .CentradoTexto .TerceraColumna p {
+      font-size: 18px; } }
+@media screen and (min-width: 1024px) {
+  .slogan .CentradoTexto .TerceraColumna .TituloTexto2 {
+    font-size: 28px; } }
+@media screen and (min-width: 2560px) {
+  .slogan .contenedor .contenedorVideo {
+    width: 40%; }
+  .slogan .CentradoTexto .TerceraColumna p {
+    font-size: 35px; }
+  .slogan .CentradoTexto .TerceraColumna .TituloTexto2 {
+    font-size: 35px; }
+  .slogan .CentradoTexto .TerceraColumna .TituloTexto {
+    font-size: 40px; } }
+@media screen and (min-width: 220px) {
+  .slogan .fondo .TuInstructor {
+    margin: 0px 0px; }
+    .slogan .fondo .TuInstructor .textoInstructor {
+      margin-top: 0px;
+      margin-bottom: 50px;
+      padding: 0px 35px;
+      text-align: left; }
+    .slogan .fondo .TuInstructor .fotoInstructor {
+      margin-top: 30px; }
+      .slogan .fondo .TuInstructor .fotoInstructor .centradoFoto img {
+        max-width: 220px; }
+  .slogan .Recordatorio p {
+    padding: 30px 35px;
+    text-align: left; } }
+@media screen and (min-width: 375px) {
+  .slogan .fondo .TuInstructor .fotoInstructor .centradoFoto img {
+    max-width: 240px; } }
+@media screen and (min-width: 425px) {
+  .slogan .fondo .TuInstructor .fotoInstructor .centradoFoto img {
+    max-width: 260px; } }
+@media screen and (min-width: 768px) {
+  .slogan .fondo .TuInstructor .textoInstructor {
+    margin: 40px 0px; }
+  .slogan .fondo .TuInstructor .fotoInstructor {
+    margin-top: 0px; }
+    .slogan .fondo .TuInstructor .fotoInstructor .centradoFoto img {
+      max-width: 180px; }
+    .slogan .fondo .TuInstructor .fotoInstructor .centradoFoto .titulo {
+      margin-top: 0px; }
+  .slogan .Recordatorio p {
+    padding: 40px 70px;
+    text-align: justify; } }
+@media screen and (min-width: 1024px) {
+  .slogan .fondo {
+    background: #f2f2f2; }
+    .slogan .fondo .TuInstructor {
+      background: #f2f2f2;
+      margin-left: 70px;
+      margin-right: 70px; }
+      .slogan .fondo .TuInstructor .fotoInstructor {
+        display: flex;
+        justify-content: center;
+        flex-direction: column; }
+        .slogan .fondo .TuInstructor .fotoInstructor .centradoFoto .titulo {
+          margin-top: 20px;
+          text-align: center;
+          font-size: 28px; }
+        .slogan .fondo .TuInstructor .fotoInstructor .centradoFoto .nombre {
+          text-align: center;
+          font-size: 20px; }
+        .slogan .fondo .TuInstructor .fotoInstructor .centradoFoto img {
+          max-width: 220px;
+          display: block;
+          margin: auto; }
+      .slogan .fondo .TuInstructor .textoInstructor {
+        margin-top: 80px;
+        text-align: justify;
+        font-size: 18px; }
+  .slogan .Recordatorio {
+    background: #f2f2f2;
+    margin-top: 40px; }
+    .slogan .Recordatorio p {
+      font-size: 18px;
+      padding: 40px 180px; } }
+@media screen and (min-width: 2560px) {
+  .slogan .fondo .TuInstructor .textoInstructor {
+    font-size: 35px; }
+  .slogan .fondo .TuInstructor .fotoInstructor .centradoFoto img {
+    max-width: 520px; }
+  .slogan .fondo .TuInstructor .fotoInstructor .centradoFoto .titulo {
+    font-size: 35px; }
+  .slogan .fondo .TuInstructor .fotoInstructor .centradoFoto .nombre {
+    font-size: 35px; }
+  .slogan .Recordatorio p {
+    padding: 30px 380px;
+    font-size: 35px; } }
+@media screen and (min-width: 200px) {
+  footer .Contacto .Correo {
+    font-size: 16px; } }
+@media screen and (min-width: 280px) {
+  .slogan .Temario .CuartaColumna {
+    width: 85%; }
+
+  footer .Contacto .Correo {
+    font-size: 20px; } }
+@media screen and (min-width: 1024px) {
+  .slogan .Temario .CuartaColumna {
+    width: 60%; } }
+@media screen and (min-width: 2560px) {
+  .slogan .Temario .CuartaColumna .Titulo {
+    font-size: 35px; }
+  .slogan .Temario .CuartaColumna .container .list-group-item {
+    font-size: 35px; }
+
+  footer .Contacto .TituloContacto {
+    font-size: 35px; }
+  footer .Contacto .Correo {
+    font-size: 35px; }
+  footer .Iconos .TituloContacto2 {
+    font-size: 35px; }
+  footer .Iconos i {
+    font-size: 35px; }
+  footer .Negro p {
+    font-size: 35px; } }
+
+/*# sourceMappingURL=estilospaquete.css.map */

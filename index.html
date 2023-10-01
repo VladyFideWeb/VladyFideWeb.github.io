@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,600;1,700&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css"><!--Accediendo a los iconos-->
+	<script src="https://kit.fontawesome.com/b440e87167.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/complemento.css">
+	<title>🐱‍🏍Laffonte.com</title>
+</head>
+<body>
+<div class="ContenedorGeneral"><!--Div que resuelve el problema de la barra de desplazamiento horizontal-->
+	<header>
+<!--con navbar-expand-md le estamos diciendo al programa que esconda el menú de navegación y lo reemplaze con el botón de menpu desplegable
+a partir del tamaño md-->	
+		<nav class="MenuNav navbar navbar-expand-md navbar-dark fixed-top">
+			<a href="index.html" class="navbar-brand">Laffonte</a>
+
+		<!--Botón para desplegar el menú de navegación cuando nos el usuario entra a la página WEB desde dispositivos de tamaño tablet o más pequeños
+		-->
+			<button class="navbar-toggler" type="buton" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Menu de Navegacion">
+				<span class="BotonDesplegable navbar-toggler-icon"></span>
+			</button>
+		<!-- id="navbar" es el id del menú de navegación-->			
+			<div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav mr-auto">
+		<!--Submenú del menú desplegable de Cursos-->				
+					<li class="nav-item dropdown">
+						<a href="#" class="nav-link dropdown-toggle" id="menu-cursos" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Paquetes
+						</a>
+						<div class="Elementos dropdown-menu" aria-labelledby="menu-cursos">
+							<a href="Algebra.html" class="dropdown-item">Algebra Ingreso Politécnico (Curso GRATIS)</a>
+							<a href="Tres-Cursos-Basicos.html" class="dropdown-item">3 Cursos Básicos (Paquete Básico)</a>
+							<a href="Matematicas-Ingreso-Politecnico.html" class="dropdown-item">Matemáticas Ingreso Politécnico (Paquete Regular)</a>
+							<a href="Tutorados.html" class="dropdown-item">Tutorados Selectos (Paquete Premium)</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a href="#Conoceme" class="nav-link">Conoceme</a>
+					</li>
+					<li class="nav-item">
+						<a target="_blank" href="FAQS.html" class="nav-link">Preguntas Frecuentes</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="BloqueBajoHeader row">
+			<div class="Eslogan col-12 col-md-6">
+				<p>Aprende todas las matemáticas para preparar tu exámen de admisión al IPN</p>
+			</div>
+			<div class="Texto col-12 col-md-6 col">
+				<a href="Algebra.html" class="BotonIniciar btn btn-md">Iniciar</a>
+			</div>
+		</div>
+	</header>
+	<section class="free">
+		<div class="BloqueCentrado row d-flex justify-content-center">
+			<div class="Uno col-12 col-sm-8"> <!--Título y Video-->
+				<p>Algebra Ingreso-Politécnico<p>
+				<div class="UnoHijo">
+					<iframe width="100%" height="415" src="https://www.youtube.com/embed/HZQLFrmyZXE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Video2Ejercicios1.3.mp4">	
+					</video> -->
+			</div>
+			<div class="Dos col-12 col-sm-4">	<!--Card-->
+				<div class="CardPrecio card">	<!--Agregando la card-->
+					<div class="CuerpoCard card-body">
+						<div class="Contenedor1">
+							<div>
+								<h3 class="card-title">Algebra-ingreso IPN</h3>
+							</div>
+							<div>
+								<p>GRATIS</p>
+							</div>
+						</div>
+						<p class="Autor">Por: <strong>Vlady Hernández</strong></p>
+						<p class="TextoCurso card-text">En este curso aprenderás desde cero todo lo que necesitas saber para resolver la parte de Álgebra del exámen de admisión del Instituto Politécnico Nacional.</p>							
+						<div class="Contenedor2">
+							<div>
+								<a href="Algebra.html" class="BotonCardIrAlCurso btn btn-outline-success">Ir al curso</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="main">
+		<div class="Paquetes row">
+			<div class="Bloque col-12 col-md-4 mt-2">
+				<div class="card" >	<!--Agregando la card-->
+					<div class="video d-flex justify-content-center"> 
+						<iframe width="100%" height="250" src="https://www.youtube.com/embed/HZQLFrmyZXE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" width="auto" height="300px" controls>
+						<source src="media/1.2EjerciciosV2.mp4">	
+					</video> -->
+					<div class="card-body">
+						<div class="Contenedor1">
+							<div>
+								<h3 class="card-title">3 Cursos Básicos</h3>
+							</div>
+							<div>
+								<div class="BotonGratis btn btn-lg">$1000 MXN</div>	<!--Creando los botones-->
+							</div>
+						</div>
+						<p class="TextoCurso card-text">Este Paquete consta de los 3 cursos principales para preparar la sección de matemáticas del exámen de admisión al IPN.<br>Cubre solo Álgebra, Cálculo Diferencial y Cálculo Integral</p>							
+						<div class="Contenedor2">
+							<div>
+								<a href="Tres-Cursos-Basicos.html" class="BotonIrAlCurso btn btn-xl">Ir al Paquete Básico</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="Bloque col-12 col-md-4 mt-2">
+				<div class="card ">	<!--Agregando la card-->
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" height="250" src="https://www.youtube.com/embed/PYNVi53UbuY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" width="auto" height="300px" controls>
+						<source src="media/1.2EjerciciosV2.mp4">	
+					</video> -->
+					<div class="card-body">
+						<div class="Contenedor1">
+							<div>
+								<h3 class="card-title">Matemáticas Ingreso Politécnico</h3>
+							</div>
+							<div>
+								<div class="BotonGratis btn btn-lg d-flex"><p class="rebaja">$1500 MXN</p><p class="rebajado">$1050 MXN</p></div>	<!--Creando los botones-->
+							</div>
+						</div>
+						<div class="descuento ">
+							<h3>30% DE DESCUENTO !! </h3>
+						</div>
+						<p class="TextoCurso card-text"><br>Este Paquete consta de 7 cursos para preparar toda la sección de matemáticas del exámen de admisión al IPN.<br></p>							
+						<!--<p class="TextoCurso1 card-text">Álgebra<br>Geometría y Trigonometría<br>Razonamiento Matemático<br>Cálculo Diferencial<br>Cálculo Integral<br>Probabilidad y Estadística</p>-->	
+						<div class="Contenedor2">
+							<div>
+								<a href="Matematicas-Ingreso-Politecnico.html" class="BotonIrAlCurso btn btn-xl">Ir al Paquete Regular</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="Bloque col-12 col-md-4 mt-2 justify-content-center">
+				<div class="card ">	<!--Agregando la card-->
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" height="100%" src="https://www.youtube.com/embed/zE6kDEgZZfM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" width="auto" height="300px" controls>
+						<source src="media/1.2EjerciciosV2.mp4">	
+					</video> -->
+					<div class="card-body variante">
+						<div class="Contenedor1">
+							<div>
+								<h3 class="card-title">Tutorados Selectos</h3>
+							</div>
+							<div>
+								<div class="BotonGratis btn btn-lg">$4000 MXN</div>	<!--Creando los botones-->
+							</div>
+						</div>
+						<p class="TextoCurso card-text">Este Paquete consta de 7 cursos para preparar toda la sección de matemáticas del exámen de admisión al IPN, más asesorías personalizadas con Vlady Hernández.</p>							
+						<div class="Contenedor2">
+							<div>
+								<a href="Tutorados.html" class="BotonIrAlCurso btn btn-xl">Ir al Paquete Premium</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="MeConoce row py-4 d-flex justify-content-center" id="Conoceme">
+			<div class="BloquePrueba col-12 "><!--Div que sirve para centrar el div hijo .BloquePruebaHijo-->
+				<div class="BloquePruebaHijo">
+					<div class="card">	<!--Agregando la card-->
+					<p class="SobreMi">Sobre Mi</p>
+					<div class="video d-flex justify-content-center"> 
+						<iframe width="100%" height="100%" src="https://www.youtube.com/embed/VwiOoeiZ4N0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" width="auto" height="300px" controls>
+						<source src="media/1.2EjerciciosV2.mp4">	
+					</video> -->
+					<div class="card-body">
+						<p class="TextoPresentacion card-text">Mi nombre es Vladymir Hernández, soy egresado de Ingeniería Mecatrónica del Instituto Politécnico Nacional, llevo años ayudando a chicos a pasar su exámen de admisión al IPN.<br> Mis años de experiencia más mi experiencia con mi exámen de admisión, condensada en estos Paquetes de Matemáticas.</p>							
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<footer>
+		<div class="row">
+			<div class="Contacto col-12 col-md-6">
+				<h4 class="TituloContacto">Contacto</h4>
+				<p class="Correo">info.laffonte.com@gmail.com</p>
+			</div>
+			<div class="Iconos col-12 col-md-6">
+				<h3 class="TituloContacto2">¿Quieres conocerme?</h3>
+				<a target="_blank" href="https://www.youtube.com/channel/UC0EkppPk4grAiUE3KMw0h5w?view_as=subscriber" class="youtube"><i class="fa fa-youtube"></i></a>
+				<a target="_blank" href="https://www.facebook.com/vladsson.hernandezgonzalez" class="facebook"><i class="fa fa-facebook-square"></i></a>
+				<a target="_blank" href="https://www.instagram.com/vladymirfidelhernandez/?hl=en" class="instagram"><i class="fa fa-instagram"></i></a>	
+			</div>
+		</div>
+		<div class="Negro row">
+			<div class="col-12">
+				<p>Laffonte-2022</p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script> 
+</div>	
+</body>
+</html>
+

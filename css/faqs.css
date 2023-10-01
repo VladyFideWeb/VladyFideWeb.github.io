@@ -1,0 +1,345 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-size: 16px;
+  background: #f2f2f2;
+  font-family: Raleway, sans-serif;
+  padding-top: 40px; }
+
+header .MenuNav {
+  padding: 0em 2.5em;
+  background: #603085;
+  font-size: 1.3em; }
+  header .MenuNav a {
+    color: #000; }
+header .BloqueBajoHeader {
+  padding: 2em;
+  background: #c8e5eb;
+  margin: 1em 0; }
+  header .BloqueBajoHeader .Titulo {
+    color: #000;
+    font-size: 3em;
+    margin: 0; }
+  header .BloqueBajoHeader .Texto {
+    text-align: center;
+    padding: 3em;
+    margin: auto; }
+    header .BloqueBajoHeader .Texto .BotonIniciar {
+      background: #ff0000;
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.8em;
+      padding: 0.8em; }
+
+@media screen and (min-width: 220px) {
+  header .MenuNav {
+    padding: 0em 2.5em;
+    background: #603085;
+    font-size: 16px; }
+    header .MenuNav .dropdown-item {
+      font-size: 14px;
+      white-space: normal; } }
+@media screen and (min-width: 320px) {
+  footer .Contacto .Correo {
+    font-size: 22px; } }
+@media screen and (min-width: 375px) {
+  header .MenuNav {
+    padding: 0em 2.5em;
+    font-size: 16px; } }
+@media screen and (min-width: 425px) {
+  header .MenuNav {
+    font-size: 18px; } }
+@media screen and (min-width: 465px) {
+  header .MenuNav .dropdown-item {
+    white-space: nowrap; } }
+@media screen and (min-width: 768px) {
+  header .MenuNav {
+    font-size: 1.3em; }
+    header .MenuNav .dropdown-item {
+      font-size: 16px; } }
+@media screen and (min-width: 1440px) {
+  header .MenuNav {
+    padding: 0em 2.5em;
+    font-size: 1.5em; }
+    header .MenuNav .dropdown-item {
+      font-size: 18px; }
+    header .MenuNav .navbar-brand {
+      font-size: 24px; } }
+@media screen and (min-width: 1540px) {
+  header .MenuNav .dropdown-item {
+    font-size: 20px; } }
+@media screen and (min-width: 1930px) {
+  header .MenuNav {
+    font-size: 2em; }
+    header .MenuNav .dropdown-item {
+      font-size: 27px; }
+    header .MenuNav .navbar-brand {
+      font-size: 30px; } }
+@media screen and (min-width: 320px) {
+  .slogan .PrimeraColumna h1 {
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 0px; }
+  .slogan .PrimeraColumna .parrafoSlogan {
+    margin-top: 25px;
+    font-size: 22px;
+    padding: 0px 20px; }
+  .slogan .PrimeraColumna .contenedor1 {
+    margin-top: 25px;
+    margin-bottom: 50px; }
+    .slogan .PrimeraColumna .contenedor1 .BotonVerPromo {
+      font-size: 16px;
+      margin-bottom: 10px; }
+    .slogan .PrimeraColumna .contenedor1 .BotonPagarPaquete {
+      font-size: 16px; }
+  .slogan .CentradoTexto .TerceraColumna .contenedor2 .BotonPagarPaquete {
+    font-size: 19px; }
+  .slogan .ComienzaAhora .Centrado .BotonPagarPaquete {
+    font-size: 16px; } }
+@media screen and (min-width: 375px) {
+  .slogan .PrimeraColumna h1 {
+    font-size: 40px;
+    margin-top: 60px; }
+  .slogan .PrimeraColumna .parrafoSlogan {
+    margin-top: 30px;
+    font-size: 24px;
+    padding: 0px 20px; }
+  .slogan .PrimeraColumna .contenedor1 {
+    margin-top: 25px;
+    margin-bottom: 60px; }
+    .slogan .PrimeraColumna .contenedor1 .BotonVerPromo {
+      font-size: 21px;
+      margin-bottom: 14px; }
+    .slogan .PrimeraColumna .contenedor1 .BotonPagarPaquete {
+      font-size: 21px; }
+  .slogan .CentradoTexto .TerceraColumna .contenedor2 .BotonPagarPaquete {
+    font-size: 21px; }
+  .slogan .ComienzaAhora .Centrado .BotonPagarPaquete {
+    font-size: 20px; } }
+@media screen and (min-width: 425px) {
+  .slogan .PrimeraColumna .parrafoSlogan {
+    padding: 0px 15px; } }
+@media screen and (min-width: 485px) {
+  .slogan .PrimeraColumna .contenedor1 .BotonVerPromo {
+    font-size: 15px; }
+  .slogan .PrimeraColumna .contenedor1 .BotonPagarPaquete {
+    font-size: 15px; } }
+@media screen and (min-width: 555px) {
+  .slogan .PrimeraColumna .contenedor1 .BotonVerPromo {
+    font-size: 21px; }
+  .slogan .PrimeraColumna .contenedor1 .BotonPagarPaquete {
+    font-size: 21px; } }
+@media screen and (min-width: 768px) {
+  .slogan .PrimeraColumna h1 {
+    font-size: 40px;
+    margin-top: 70px; }
+  .slogan .PrimeraColumna .parrafoSlogan {
+    margin-top: 30px;
+    font-size: 26px;
+    padding: 0px 15px; }
+  .slogan .PrimeraColumna .contenedor1 {
+    margin-top: 25px;
+    margin-bottom: 70px; }
+    .slogan .PrimeraColumna .contenedor1 .BotonVerPromo {
+      font-size: 21px;
+      margin-bottom: 14px; }
+    .slogan .PrimeraColumna .contenedor1 .BotonPagarPaquete {
+      font-size: 21px; }
+  .slogan .CentradoTexto .TerceraColumna .contenedor2 .BotonPagarPaquete {
+    font-size: 21px; }
+  .slogan .ComienzaAhora .Centrado .BotonPagarPaquete {
+    font-size: 20px; } }
+.elemento-lista {
+  height: 5.5rem;
+  overflow: hidden;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  padding: 2.25em;
+  margin: 0.37em;
+  font-size: 1.125em; }
+
+.question-long {
+  height: 7.25em; }
+
+.elemento-lista:hover {
+  background: #603085;
+  color: #fff; }
+
+.elemento-lista:focus {
+  height: 100%;
+  text-decoration: none;
+  color: #fff;
+  background: rgba(96, 48, 133, 0.5); }
+  .elemento-lista:focus .respuesta {
+    height: 100%; }
+
+.fhoto {
+  border-radius: 5px; }
+
+footer {
+  background: #f2f2f2;
+  margin: 0em -1.2em;
+  padding: 0em 1.2em; }
+  footer .Negro {
+    background: #000;
+    color: #fff;
+    margin: 0em -1.2em;
+    text-align: center;
+    padding: 10px 0; }
+    footer .Negro p {
+      margin: auto; }
+  footer .Contacto {
+    padding: 20px 0; }
+    footer .Contacto .TituloContacto {
+      text-align: center;
+      margin-bottom: 8px;
+      color: #603085; }
+    footer .Contacto .Correo {
+      text-align: center;
+      margin-bottom: 8px; }
+    footer .Contacto .CentradoNumero {
+      display: flex;
+      justify-content: center;
+      text-align: center; }
+      footer .Contacto .CentradoNumero .LogoTW {
+        padding: 0px;
+        display: inline-block;
+        margin: 0 20px;
+        width: 50px;
+        font-size: 22px;
+        color: #fff;
+        background: #25d366;
+        border-radius: 100px; }
+      footer .Contacto .CentradoNumero p {
+        margin: 5px -9px; }
+  footer .Iconos {
+    text-align: center;
+    padding: 20px 0; }
+    footer .Iconos .TituloContacto2 {
+      text-align: center;
+      margin-bottom: 8px;
+      color: #603085; }
+    footer .Iconos a {
+      padding: 10px;
+      display: inline-block;
+      margin: 0 20px;
+      width: 50px;
+      font-size: 22px;
+      color: #fff;
+      background: #000;
+      border-radius: 100px; }
+      footer .Iconos a.youtube {
+        background: #ff0000; }
+      footer .Iconos a.facebook {
+        background: #3b5998; }
+      footer .Iconos a.instagram {
+        background: #833ab4; }
+
+@media screen and (max-width: 1030px) {
+  .question-medium {
+    height: 6.875em; }
+
+  .question-long {
+    height: 8.7em; } }
+@media screen and (max-width: 700px) {
+  header .ajustarCaja {
+    margin: 20px 0;
+    padding: 20px 0; }
+    header .ajustarCaja .BloqueBajoHeader {
+      margin: 0.5em;
+      padding: 1.25em; }
+      header .ajustarCaja .BloqueBajoHeader .Titulo {
+        font-size: 2.5em;
+        text-align: center; }
+
+  .elemento-lista {
+    height: 5em;
+    padding: 1.625em;
+    margin: 0.375em; }
+
+  .question-long {
+    height: 9.125em; }
+
+  .question-medium {
+    height: 7em; } }
+@media screen and (max-width: 650px) {
+  .elemento-lista {
+    height: 7em; }
+
+  .question-long {
+    height: 8.75em; } }
+@media screen and (max-width: 600px) {
+  .elemento-lista {
+    height: 7em; }
+
+  .question-long {
+    height: 11em; }
+
+  .question-medium {
+    height: 7em; } }
+@media screen and (max-width: 470px) {
+  .elemento-lista {
+    height: 6.25em; }
+
+  .question-long {
+    height: 11em; }
+
+  .question-medium {
+    height: 7em; } }
+@media screen and (max-width: 410px) {
+  header .BloqueBajoHeader .Titulo {
+    font-size: 1.875em; }
+
+  .elemento-lista {
+    height: 7em;
+    padding: 1.625em;
+    margin: 0.375em; }
+
+  .question-long {
+    height: 13em; }
+
+  .question-medium {
+    height: 8.6em; } }
+@media screen and (max-width: 350px) {
+  .elemento-lista {
+    height: 8.6em; }
+
+  .question-little {
+    height: 5.5em; }
+
+  .question-long {
+    height: 15em; }
+
+  .question-medium {
+    height: 9.8em; } }
+@media screen and (max-width: 350px) {
+  .elemento-lista {
+    height: 8.6em; }
+
+  .question-little {
+    height: 5.5em; }
+
+  .question-long {
+    height: 16.6em; }
+
+  .question-medium {
+    height: 10em; } }
+@media screen and (max-width: 280px) {
+  header .ajustarCaja .BloqueBajoHeader .Titulo {
+    font-size: 1em; }
+
+  .elemento-lista {
+    height: 8.6em; }
+
+  .question-little {
+    height: 5.5em; }
+
+  .question-long {
+    height: 16.6em; }
+
+  .question-medium {
+    height: 10em; } }
+
+/*# sourceMappingURL=faqs.css.map */

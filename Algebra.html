@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,600;1,700&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css"><!--Accediendo a los iconos-->
+	<link rel="stylesheet" href="css/estiloscurso.css">
+	<link rel="stylesheet" href="css/complementoAlgebra.css">
+	<title>🐱‍🏍Laffonte-Algebra</title>
+</head>
+<body>
+<div class="ContenedorGeneral"><!--Div que resuelve el problema de la barra de desplazamiento horizontal-->
+	<header>
+<!--con navbar-expand-md le estamos diciendo al programa que esconda el menú de navegación y lo reemplaze con el botón de menpu desplegable
+a partir del tamaño md-->	
+		<nav class="MenuNav navbar navbar-expand-md navbar-dark fixed-top">
+			<a href="index.html" class="navbar-brand">Laffonte</a>
+			
+<!--Botón para desplegar el menú de navegación cuando nos el usuario entra a la página WEB desde dispositivos de tamaño tablet o más pequeños
+-->
+			<button class="navbar-toggler" type="buton" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Menu de Navegacion">
+				<span class="BotonDesplegable navbar-toggler-icon"></span>
+			</button>
+<!-- id="navbar" es el id del menú de navegación-->			
+			<div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav mr-auto">
+<!--Submenú del menú desplegable de Cursos-->				
+					<li class="nav-item dropdown">
+						<a href="#" class="nav-link dropdown-toggle" id="menu-cursos" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Paquetes
+						</a>
+						<div class="Elementos dropdown-menu" aria-labelledby="menu-cursos">
+							<a href="Algebra.html" class="dropdown-item">Algebra Ingreso Politécnico (Curso GRATIS)</a>
+                            <a href="Tres-Cursos-Basicos.html" class="dropdown-item">3 Cursos Básicos (Paquete Básico)</a>
+							<a href="Matematicas-Ingreso-Politecnico.html" class="dropdown-item">Matemáticas Ingreso Politécnico (Paquete Regular)</a>
+							<a href="Tutorados.html" class="dropdown-item">Tutorados Selectos (Paquete Premium)</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a target="_blank" href="FAQS.html" class="nav-link">Preguntas Frecuentes</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	
+	</header>
+	
+	<section class="main">
+		<div class="BloqueCentrado d-flex justify-content-center row">
+			<div class="Uno col-12 col-sm-8"> <!--Título y Video-->
+				<p>Algebra Ingreso-Politécnico<p>
+				<div class="UnoHijo ">
+					<div class="video d-flex justify-content-center"> 
+						<iframe width="620" height="415" src="https://www.youtube.com/embed/HZQLFrmyZXE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Video2Ejercicios1.3.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div class="Dos col-12 col-sm-4">	<!--Card-->
+				<div class="CardPrecio card">	<!--Agregando la card-->
+					<div class="CuerpoCard card-body">
+						<div class="Contenedor1">
+							<div>
+								<h3 class="card-title">Algebra-ingreso IPN</h3>
+							</div>
+							<p>GRATIS</p>
+						</div>
+						<p class="Autor">Por: <strong>Vlady Hernández</strong></p>
+						<p class="TextoCurso card-text">En este curso aprenderás desde cero todo lo que necesitas saber para resolver la parte de Álgebra del exámen de admisión al Instituto Politécnico Nacional.</p>							
+						<div class="Contenedor2">
+							<div>
+								<a href="#Tema1Algebra" class="BotonCardIrAlCurso btn btn-outline-success">Ir al curso</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<main class="container">
+		<div class="row">
+			<div class="Temario col-12">
+				<hr/>
+				<p>Imágenes del curso</p>
+			</div>
+			<div class="col-12">
+				<div class="carousel slide" id="slideshow" data-ride="carousel"><!--Creando el carrusel-->
+					<!--Indicadores-->
+					<ol class="carousel-indicators">
+						<li data-target="#slideshow" data-slide-to="0" class="active"></li>
+						<li data-target="#slideshow" data-slide-to="1"></li>
+						<li data-target="#slideshow" data-slide-to="2"></li>
+						<li data-target="#slideshow" data-slide-to="3"></li>
+						<li data-target="#slideshow" data-slide-to="4"></li>
+					</ol>
+					
+					<!--Slides-->
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="media/A-1.png" class="d-block w-100" alt="">
+						</div>
+						<div class="carousel-item">
+							<img src="media/A-2.png" class="d-block w-100" alt="">
+						</div>
+						<div class="carousel-item">
+							<img src="media/A-3.png" class="d-block w-100" alt="">
+						</div>
+						<div class="carousel-item">
+							<img src="media/A-4.png" class="d-block w-100" alt="">
+						</div>
+						<div class="carousel-item">
+							<img src="media/A-5.png" class="d-block w-100" alt="">
+						</div>
+					</div>
+					<!--Controles-->
+					<a href="#slideshow" class="carousel-control-prev" data-slide="prev"><!--igualando el id: id="slideshow"-->
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Anterior</span><!--Se pone texto por si se entra a la pág. con un dispositivo que no pueda leer icons-->
+					</a>
+					<a href="#slideshow" class="carousel-control-next" data-slide="next"><!--igualando el id: id="slideshow"-->
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Siguiente</span><!--Se pone texto por si se entra a la pág. con un dispositivo que no pueda leer icons-->
+					</a>
+				</div>
+			</div>
+			<div class="Temario col-12">
+				<hr/>
+				<p>Temario del curso</p>
+			</div>
+		</div>
+	</main>
+		<div class="row">
+			<div class="col-12 col-md-6">
+				<div class="col">
+					<div class="list-group">
+						<a href="#Tema1Algebra" class="Tema list-group-item list-group-item-action list-group-item-success"><p>1-¿Por qué la mayoría no queda en el IPN?</p></a>
+						<a href="#Tema2Algebra" class="Tema list-group-item list-group-item-action list-group-item-info"><p>2-Números Reales</p></a>
+						<a href="#Tema3Algebra" class="Tema list-group-item list-group-item-action list-group-item-success"><p>3-Raíces Cuadradas Exactas (Significado de >, <,>=, <=) </p></a>
+						<a href="#Tema4Algebra" class="Tema list-group-item list-group-item-action list-group-item-danger"><p>4-Números Decimales Periódicos </p></a>
+						<a href="#Tema5Algebra" class="Tema list-group-item list-group-item-action list-group-item-light"><p>5-Suma y Resta de Números Decimales</p></a>
+						<a href="#Tema6Algebra" class="Tema list-group-item list-group-item-action list-group-item-dark"><p>6-Multiplicación y División de números decimales</p></a>
+						<a href="#Tema7Algebra" class="Tema list-group-item list-group-item-action list-group-item-success"><p>7-Ejercicio Tipo Examen-1</p></a>
+						<a href="#Tema8Algebra" class="Tema list-group-item list-group-item-action list-group-item-info"><p>8-Recta numérica y Representación geométrica</p></a>
+						<a href="#Tema9Algebra" class="Tema list-group-item list-group-item-action list-group-item-success"><p>9-Operaciones básicas y reducción con paréntesis </p></a>
+						<a href="#Tema10Algebra" class="Tema list-group-item list-group-item-action list-group-item-danger"><p>10-Mínimo Común Múltiplo y Máximo Común Divisor</p></a>
+						<a href="#Tema11Algebra" class="Tema list-group-item list-group-item-action list-group-item-light"><p>11-Suma y Resta de Fracciones</p></a>
+						<a href="#Tema12Algebra" class="Tema list-group-item list-group-item-action list-group-item-dark"><p>12-Traducción de palabras a Símbolos Algebraicos </p></a>
+						<a href="#Tema13Algebra" class="Tema list-group-item list-group-item-action list-group-item-success"><p>13-Representación algebraica de Áreas y Volúmenes</p></a>
+						<a href="#Tema14Algebra" class="Tema list-group-item list-group-item-action list-group-item-info"><p>14-Suma y resta de Términos Algebraicos</p></a>
+						<a href="#Tema15Algebra" class="Tema list-group-item list-group-item-action list-group-item-success"><p>15-Resta de Términos Algebraicos Parte 2</p></a>
+						<a href="#Tema16Algebra" class="Tema list-group-item list-group-item-action list-group-item-danger"><p>16-Multiplicación de Términos Algebraicos</p></a>
+						<a href="#Tema17Algebra" class="Tema list-group-item list-group-item-action list-group-item-light"><p>17-Ejercicio Tipo Exámen-2</p></a>
+						<a href="#Tema18Algebra" class="Tema list-group-item list-group-item-action list-group-item-dark"><p>18-División de Términos Algebraicos</p></a>
+						<a href="#Tema19Algebra" class="Tema list-group-item list-group-item-action list-group-item-success"><p>19-División de Polinomios con casita</p></a>
+						<a href="#Tema20Algebra" class="Tema list-group-item list-group-item-action list-group-item-info"><p>20-Binomio al cuadrado</p></a>
+						<a href="#Tema21Algebra" class="Tema list-group-item list-group-item-action list-group-item-success"><p>21-Binomio al cubo</p></a>
+						<a href="#Tema22Algebra" class="Tema list-group-item list-group-item-action list-group-item-danger"><p>22-Triángulo de Pascal</p></a>
+						<a href="#Tema23Algebra" class="Tema list-group-item list-group-item-action list-group-item-light"><p>23-Definiciones que sí vienen en el examen de admisión</p></a>
+						<a href="#Tema24Algebra" class="Tema list-group-item list-group-item-action list-group-item-dark"><p>24-Leyes de los exponentes</p></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6">
+				<div class="col">
+					<div class="list-group">
+						<a href="#Tema25Algebra" class="Tema list-group-item list-group-item-action list-group-item-success"><p>25-Reducción de Radicales</p></a>
+						<a href="#Tema26Algebra" class="Tema list-group-item list-group-item-action list-group-item-info"><p>26-Reducción de Radicales Parte 2</p></a>
+						<a href="#Tema27Algebra" class="Tema list-group-item list-group-item-action list-group-item-warning"><p>27-Suma y resta de Radicales</p></a>
+						<a href="#Tema28Algebra" class="Tema list-group-item list-group-item-action list-group-item-danger"><p>28-Multiplicación y división de Radicales</p></a>
+						<a href="#Tema29Algebra" class="Tema list-group-item list-group-item-action list-group-item-light"><p>29-Ejercicio Tipo Exámen-3</p></a>
+						<a href="#Tema30Algebra" class="Tema list-group-item list-group-item-action list-group-item-dark"><p>30-División de Radicales</p></a>
+						<a href="#Tema31Algebra" class="Tema list-group-item list-group-item-action list-group-item-success"><p>31-Racionalización de Radicales</p></a>
+						<a href="#Tema32Algebra" class="Tema list-group-item list-group-item-action list-group-item-info"><p>32-Factorización por termino común </p></a>
+						<a href="#Tema33Algebra" class="Tema list-group-item list-group-item-action list-group-item-success"><p>33-Diferencia de cuadrados y Factorización de Trinomios</p></a>
+						<a href="#Tema34Algebra" class="Tema list-group-item list-group-item-action list-group-item-danger"><p>34-Lo que harás una semana antes de tu examen de admisión</p></a>
+						<a href="#Tema35Algebra" class="Tema list-group-item list-group-item-action list-group-item-light"><p>35-Fracciones Algebraicas</p></a>
+						<a href="#Tema36Algebra" class="Tema list-group-item list-group-item-action list-group-item-dark"><p>36-Ejercicio Tipo Exámen-4</p></a>
+						<a href="#Tema37Algebra" class="Tema list-group-item list-group-item-action list-group-item-success"><p>37-Ecuaciones lineales</p></a>
+						<a href="#Tema38Algebra" class="Tema list-group-item list-group-item-action list-group-item-info"><p>38-3 Ejercicios clave que debes saber resolver (Verdadero Asignado) I</p></a>
+						<a href="#Tema39Algebra" class="Tema list-group-item list-group-item-action list-group-item-success"><p>39-Ecuaciones cuadráticas y Discriminante</p></a>
+						<a href="#Tema40Algebra" class="Tema list-group-item list-group-item-action list-group-item-danger"><p>40-El Ejercicio que el 90% de los aspirantes no saben-Discriminante Parte 2</p></a>
+						<a href="#Tema41Algebra" class="Tema list-group-item list-group-item-action list-group-item-light"><p>41-Sistemas de ecuaciones de 2x2</p></a>
+						<a href="#Tema42Algebra" class="Tema list-group-item list-group-item-action list-group-item-dark"><p>42-Ejercicio Tipo Exámen-5</p></a>
+						<a href="#Tema43Algebra" class="Tema list-group-item list-group-item-action list-group-item-success"><p>43-Sistema de ecuaciones (Ec. Cuadrática+Ec. Lineal)</p></a>
+						<a href="#Tema44Algebra" class="Tema list-group-item list-group-item-action list-group-item-info"><p>44-Sistemas de ecuaciones de 3x3</p></a>
+						<a href="#Tema45Algebra" class="Tema list-group-item list-group-item-action list-group-item-success"><p>45-Concepto de Función</p></a>
+						<a href="#Tema46Algebra" class="Tema list-group-item list-group-item-action list-group-item-light"><p>46-Evaluaciones y raíces de las funciones </p></a>
+						<a href="#Tema47Algebra" class="Tema list-group-item list-group-item-action list-group-item-dark"><p>47-3 Ejercicios clave que debes saber resolver (Verdadero Asignado) II</p></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="BloqueCentrado row">
+			<div id="Tema1Algebra" class="Uno col-12 mb-2"> <!--Título y Video-->
+				<p>1-¿Por qué la mayoría no queda en el IPN?<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/3-9qHgwiRFI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/VideoIntroduccionCursoAlgebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema2Algebra"class="Uno col-12"> <!--Título y Video-->
+				<p>2-Números Reales<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/NkQi8tfTmEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase1-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema3Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>3-Raíces Cuadradas Exactas (Significado de >, <,>=, <=) <p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/AiTp3_HYB5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase2-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema4Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>4-Números Decimales Periódicos <p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/z1PUYZ0FrGw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase3-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema5Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>5-Suma y Resta de Números Decimales <p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/LGRiI69tpoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase4-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema6Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>6-Multiplicación y División de números decimales <p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/hS3U0efoicQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase5-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema7Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>7-Ejercicio Tipo Examen-1<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/XdJO0iVyswk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase6-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema8Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>8-Recta numérica y Representación geométrica<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/JLFELXEGh1U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase7-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema9Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>9-Operaciones básicas y reducción con paréntesis <p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/ZRi3RpJEOHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase8-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema10Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>10-Mínimo Común Múltiplo y Máximo Común Divisor<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/u6ocUD2WWmQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase9-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema11Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>11-Suma y Resta de Fracciones<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/UIzBKn9d59Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase10-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema12Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>12-Traducción de palabras a Símbolos Algebraicos <p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/ysr5r1kr610" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase11-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema13Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>13-Representación algebraica de Áreas y Volúmenes<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/fTh6_2uNOz4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase12-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema14Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>14-Suma y resta de Términos Algebraicos <p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/XKdy49eKCoc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase13-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema15Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>15-Resta de Términos Algebraicos Parte 2<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/d5f5fxiCVyw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase14-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema16Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>16-Multiplicación de Términos Algebraicos<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/5A1TOdQk5Y4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase15-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema17Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>17-Ejercicio Tipo Exámen-2<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/tdh1QyICs6A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase16-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema18Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>18-División de Términos Algebraicos<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/PuMf-tlTHQA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase17-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema19Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>19-División de Polinomios con casita<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/lLtnqCWZQEU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase18-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema20Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>20-Binomio al cuadrado<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/aLaovqvCXjw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase19-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema21Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>21-Binomio al cubo<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/c_mDG08Xi0M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase20-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema22Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>22-Triángulo de Pascal<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/U9EFx5_dqqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase21-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema23Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>23-Definiciones que sí vienen en el examen de admisión<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/JhVzCvhcds0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase22-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema24Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>24-Leyes de los exponentes<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/_PtbQN89jsg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase23-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema25Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>25-Reducción de Radicales<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/CiRSHa9rLWk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase24-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema26Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>26-Reducción de Radicales Parte 2<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/tpwPspGhZq0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase25-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema27Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>27-Suma y resta de Radicales<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/ce4Vcb23_io" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase26-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema28Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>28-Multiplicación y división de Radicales<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/Cp0qBBzeqFs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase27-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema29Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>29-Ejercicio Tipo Exámen-3<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/G83QZ-iPfYg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase28-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema30Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>30-División de Radicales<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/t-JhdUGA9xs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase29-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema31Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>31-Racionalización de Radicales<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/yb_MGIpvo90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase30-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema32Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>32-Factorización por termino común <p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/iY6u_C4AYM8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase31-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema33Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>33-Diferencia de cuadrados y Factorización de Trinomios<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/2qjjgA1H1KM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase32-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema34Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>34-Lo que harás una semana antes de tu examen de admisión<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/ygai7TLgnok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase33-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema35Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>35-Fracciones Algebraicas<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/ZCd_Sxenipo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase34-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema36Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>36-Ejercicio Tipo Exámen-4<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/q6AGjHVe9s4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase35-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema37Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>37-Ecuaciones lineales<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/75CRBN240UA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase36-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema38Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>38-3 Ejercicios clave que debes saber resolver (Verdadero Asignado) I<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/jggbCZn2J-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase37-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema39Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>39-Ecuaciones cuadráticas y Discriminante<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/AIc2DDmVdDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase38-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema40Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>40-El Ejercicio que el 90% de los aspirantes no saben-Discriminante Parte 2<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/AIc2DDmVdDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase39-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema41Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>41-Sistemas de ecuaciones de 2x2<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/Ee_SlumRehA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase40-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema42Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>42-Ejercicio Tipo Exámen-5<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/qLTEibqWcCc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase41-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema43Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>43-Sistema de ecuaciones (Ec. Cuadrática+Ec. Lineal)<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/9dsf_HsIEto" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase42-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema44Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>44-Sistemas de ecuaciones de 3x3<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/13i_oQxSOaU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase43-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema45Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>45-Concepto de Función<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/Z129heC6UO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase44-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema46Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>46-Evaluaciones y raíces de las funciones <p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/ECBU1hHskA4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase45-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+			<div id="Tema47Algebra" class="Uno col-12"> <!--Título y Video-->
+				<p>47-3 Ejercicios clave que debes saber resolver (Verdadero Asignado) II<p>
+				<div class="UnoHijo">
+					<div class="video d-flex justify-content-center" > 
+						<iframe width="100%" src="https://www.youtube.com/embed/vVtCnt7UAD8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- <video class="video" height="350px" controls>
+						<source src="media/Algebra/Clase46-Algebra.mp4">	
+					</video> -->
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<footer>
+		<div class="row">
+			<div class="Contacto col-12 col-md-6">
+				<h4 class="TituloContacto">Contacto</h4>
+				<p class="Correo">info.laffonte.com@gmail.com</p>
+			</div>
+			<div class="Iconos col-12 col-md-6">
+				<h3 class="TituloContacto2">¿Quieres conocerme?</h3>
+				<a target="_blank" href="https://www.youtube.com/channel/UC0EkppPk4grAiUE3KMw0h5w?view_as=subscriber" class="youtube"><i class="fa fa-youtube"></i></a>
+				<a target="_blank" href="https://www.facebook.com/vladsson.hernandezgonzalez" class="facebook"><i class="fa fa-facebook-square"></i></a>
+				<a target="_blank" href="https://www.instagram.com/vladymirfidelhernandez/?hl=en" class="instagram"><i class="fa fa-instagram"></i></a>	
+			</div>
+		</div>
+		<div class="Negro row">
+			<div class="col-12">
+				<p>Laffonte-2022</p>
+			</div>
+		</div>
+	</footer>
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</div>	
+</body>
+</html>

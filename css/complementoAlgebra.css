@@ -1,0 +1,39 @@
+.ContenedorGeneral .BloqueCentrado .Uno .UnoHijo iframe{
+    height:350px ;
+    width: 620px;
+}
+
+
+@media screen and (max-width:941px){
+    .ContenedorGeneral .BloqueCentrado .Uno .UnoHijo iframe{
+        height:250px ;
+        width: 440px;
+        
+    }
+
+}
+@media screen and (max-width:714px){
+    .ContenedorGeneral .BloqueCentrado .Uno .UnoHijo iframe{
+        height:200px ;
+        width: 360px;
+    }
+}
+@media screen and (max-width:374px){
+    .ContenedorGeneral .BloqueCentrado .Uno .UnoHijo iframe{
+        height:170px ;
+        width: 320%;
+    }
+}
+@media screen and (max-width:300px){
+    .ContenedorGeneral .BloqueCentrado .Uno .UnoHijo iframe{
+        height:115px ;
+        width: 200px;
+    }
+}
+@media screen and (max-width:200px){
+    .ContenedorGeneral .BloqueCentrado .Uno .UnoHijo iframe{
+        height:100px ;
+        width: 180px;
+    }
+}
+

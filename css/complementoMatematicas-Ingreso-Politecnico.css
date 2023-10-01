@@ -1,0 +1,81 @@
+
+.descuento{
+    text-align: center;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.slogan .contenedor1 .rebaja{
+    text-decoration:line-through;
+}
+.ComienzaAhora .rebaja{
+    text-decoration:line-through;
+}
+.slogan .contenedor iframe{
+    height: 335px;
+}
+@media screen and (max-width:1024px){
+    .slogan .contenedor iframe{
+        height: 270px;
+    }
+}
+@media screen and (max-width:974px){
+    .slogan .contenedor iframe{
+        height: 450px;
+    }
+}
+@media screen and (max-width:900px){
+    .slogan .contenedor iframe{
+        height: 410px;
+    }
+}
+@media screen and (max-width:800px){
+    .slogan .contenedor iframe{
+        height: 370px;
+    }
+}
+@media screen and (max-width:700px){
+    .slogan .contenedor iframe{
+        height: 330px;
+    }
+}
+@media screen and (max-width:600px){
+    .slogan .contenedor iframe{
+        height: 280px;
+    }
+}
+@media screen and (max-width:500px){
+    .slogan .contenedor iframe{
+        height: 240px;
+    }
+}
+@media screen and (max-width:425px){
+    .slogan .contenedor iframe{
+        height: 200px;
+    }
+}
+@media screen and (max-width:400px){
+    .slogan .contenedor iframe{
+        height: 190px;
+    }
+}
+@media screen and (max-width:375px){
+    .slogan .contenedor iframe{
+        height: 180px;
+    }
+}
+@media screen and (max-width:320px){
+    .slogan .contenedor iframe{
+        height: 160px;
+    }
+}
+@media screen and (max-width:300px){
+    .slogan .contenedor iframe{
+        height: 150px;
+    }
+}
+@media screen and (max-width:200px){
+    .slogan .contenedor iframe{
+        height: 100px;
+    }
+}

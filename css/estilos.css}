@@ -1,0 +1,812 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: Raleway, sans-serif;
+  font-size: 16px;
+  padding-top: 40px; }
+
+.ContenedorGeneral {
+  width: 97%;
+  max-width: auto;
+  margin: auto; }
+
+header .MenuNav {
+  padding: 0em 2.5em;
+  background: #603085;
+  font-size: 1.3em; }
+  header .MenuNav a {
+    color: #000; }
+header .BloqueBajoHeader {
+  margin: 1em -1.2em;
+  padding: 0px 0px;
+  background: #c8e5eb; }
+  header .BloqueBajoHeader .Eslogan {
+    padding: 2em 4em;
+    margin: auto; }
+    header .BloqueBajoHeader .Eslogan p {
+      font-weight: 420;
+      color: #000;
+      font-size: 2em;
+      text-align: center;
+      cursor: default; }
+  header .BloqueBajoHeader .Texto {
+    text-align: center;
+    padding: 3em;
+    margin: auto; }
+    header .BloqueBajoHeader .Texto .BotonIniciar {
+      background: #ff0000;
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.8em;
+      padding: 0.8em; }
+
+.free .BloqueCentrado .Uno {
+  background: #fff; }
+  .free .BloqueCentrado .Uno p {
+    text-align: center;
+    font-size: 2.1em;
+    font-weight: 400;
+    color: #000;
+    margin: 23px 0px 0px 0px; }
+  .free .BloqueCentrado .Uno .UnoHijo {
+    display: flex;
+    justify-content: center; }
+.free .BloqueCentrado .Dos {
+  background: #fff;
+  display: flex;
+  justify-content: center; }
+  .free .BloqueCentrado .Dos .CardPrecio {
+    margin-top: 70px;
+    margin-bottom: 40px;
+    width: 300px;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.35); }
+    .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard {
+      padding: 10px 20px; }
+      .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor1 {
+        display: flex;
+        flex-direction: column; }
+        .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor1 h3 {
+          text-align: center;
+          font-size: 27px; }
+        .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor1 p {
+          text-align: center;
+          font-size: 20px;
+          color: #ff0000;
+          font-weight: 850; }
+      .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Autor {
+        text-align: justify; }
+      .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .TextoCurso {
+        text-align: justify; }
+      .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor2 {
+        display: flex;
+        justify-content: center; }
+        .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor2 .BotonCardIrAlCurso {
+          margin-top: 20px;
+          background: #ff0000;
+          border-color: #ff0000;
+          color: #fff; }
+          .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor2 .BotonCardIrAlCurso:hover {
+            background: #fff;
+            color: #ff0000; }
+
+.main .Paquetes {
+  margin-top: 50px; }
+  .main .Paquetes .Contenedor1 {
+    display: flex;
+    justify-content: space-between; }
+    .main .Paquetes .Contenedor1 .BotonGratis {
+      font-weight: 1000;
+      color: #f44611;
+      cursor: default;
+      font-size: 20px; }
+      .main .Paquetes .Contenedor1 .BotonGratis .rebaja {
+        text-decoration: line-through;
+        font-size: 15px; }
+      .main .Paquetes .Contenedor1 .BotonGratis .rebajado {
+        color: #c9ad11; }
+  .main .Paquetes .Contenedor2 {
+    display: flex;
+    justify-content: center; }
+    .main .Paquetes .Contenedor2 .BotonIrAlCurso {
+      margin-top: 20px;
+      background: #ff0000;
+      border-color: #ff0000;
+      color: #fff; }
+      .main .Paquetes .Contenedor2 .BotonIrAlCurso:hover {
+        background: #fff;
+        color: #ff0000; }
+  .main .Paquetes .descuento h3 {
+    color: red;
+    text-align: center; }
+.main .MeConoce .BloquePrueba {
+  display: flex;
+  justify-content: center; }
+  .main .MeConoce .BloquePrueba .BloquePruebaHijo {
+    width: 40%; }
+    .main .MeConoce .BloquePrueba .BloquePruebaHijo .SobreMi {
+      font-size: 2em;
+      text-align: center;
+      margin: 0; }
+    .main .MeConoce .BloquePrueba .BloquePruebaHijo .card-body p {
+      text-align: justify; }
+
+footer {
+  background: #f2f2f2;
+  margin: 0em -1.2em;
+  padding: 0em 1.2em; }
+  footer .Negro {
+    background: #000;
+    color: #fff;
+    margin: 0em -1.2em;
+    text-align: center;
+    padding: 10px 0; }
+    footer .Negro p {
+      margin: auto; }
+  footer .Contacto {
+    padding: 20px 0; }
+    footer .Contacto .TituloContacto {
+      text-align: center;
+      margin-bottom: 8px;
+      color: #603085; }
+    footer .Contacto .Correo {
+      text-align: center;
+      margin-bottom: 8px;
+      font-size: 22px;
+      color: #000; }
+    footer .Contacto .CentradoNumero {
+      display: flex;
+      justify-content: center;
+      text-align: center; }
+      footer .Contacto .CentradoNumero .LogoTW {
+        padding: 0px;
+        display: inline-block;
+        margin: 0 20px;
+        width: 50px;
+        font-size: 22px;
+        color: #fff;
+        background: #25d366;
+        border-radius: 100px; }
+      footer .Contacto .CentradoNumero p {
+        margin: 5px -9px; }
+  footer .Iconos {
+    text-align: center;
+    padding: 20px 0; }
+    footer .Iconos .TituloContacto2 {
+      text-align: center;
+      margin-bottom: 8px;
+      color: #603085; }
+    footer .Iconos a {
+      padding: 10px;
+      display: inline-block;
+      margin: 0 20px;
+      width: 50px;
+      font-size: 22px;
+      color: #fff;
+      background: #000;
+      border-radius: 100px; }
+      footer .Iconos a.youtube {
+        background: #ff0000; }
+      footer .Iconos a.facebook {
+        background: #3b5998; }
+      footer .Iconos a.instagram {
+        background: #833ab4; }
+
+@media screen and (min-width: 2560px) {
+  header .BloqueBajoHeader .Eslogan p {
+    font-size: 80px; }
+
+  .free .BloqueCentrado .Uno p {
+    font-size: 50px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor1 div .card-title {
+    font-size: 40px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor1 div p {
+    font-size: 30px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Autor {
+    font-size: 25px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .TextoCurso {
+    font-size: 30px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor2 .BotonCardIrAlCurso {
+    font-size: 30px; }
+
+  .main .Paquetes .Bloque .card .Contenedor1 .BotonGratis {
+    font-size: 38px; }
+    .main .Paquetes .Bloque .card .Contenedor1 .BotonGratis .rebajado {
+      font-size: 35px; }
+    .main .Paquetes .Bloque .card .Contenedor1 .BotonGratis .rebaja {
+      font-size: 35px; }
+  .main .Paquetes .Bloque .card .Contenedor1 .card-title {
+    font-size: 38px; }
+  .main .Paquetes .Bloque .card .TextoCurso {
+    font-size: 25px; }
+  .main .Paquetes .Bloque .card .Contenedor2 .BotonIrAlCurso {
+    font-size: 25px; }
+  .main .MeConoce .BloquePrueba .BloquePruebaHijo .card-body {
+    font-size: 25px; } }
+@media screen and (max-width: 2559px) {
+  .free .BloqueCentrado .Uno p {
+    font-size: 50px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor1 div .card-title {
+    font-size: 40px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor1 div p {
+    font-size: 30px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Autor {
+    font-size: 25px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .TextoCurso {
+    font-size: 30px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor2 .BotonCardIrAlCurso {
+    font-size: 30px; }
+
+  .main .Paquetes .Bloque .card .Contenedor1 .BotonGratis {
+    font-size: 38px; }
+    .main .Paquetes .Bloque .card .Contenedor1 .BotonGratis .rebajado {
+      font-size: 35px; }
+    .main .Paquetes .Bloque .card .Contenedor1 .BotonGratis .rebaja {
+      font-size: 35px; }
+  .main .Paquetes .Bloque .card .Contenedor1 .card-title {
+    font-size: 30px; }
+  .main .Paquetes .Bloque .card .TextoCurso {
+    font-size: 25px; }
+  .main .Paquetes .Bloque .card .Contenedor2 .BotonIrAlCurso {
+    font-size: 25px; }
+  .main .MeConoce .BloquePrueba .BloquePruebaHijo .card-body {
+    font-size: 25px; } }
+@media screen and (max-width: 2500px) {
+  .free .BloqueCentrado .Uno p {
+    font-size: 30px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor1 .BotonGratis {
+    font-size: 35px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor1 .card-title {
+    font-size: 30px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Autor {
+    font-size: 20px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .TextoCurso {
+    font-size: 23px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor2 .BotonCardIrAlCurso {
+    font-size: 23px; } }
+@media screen and (max-width: 1440px) {
+  .free .BloqueCentrado .Uno p {
+    font-size: 40px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor1 .card-title {
+    font-size: 28px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Autor {
+    font-size: 18px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .TextoCurso {
+    font-size: 18px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor2 .BotonCardIrAlCurso {
+    font-size: 18px; } }
+@media screen and (max-width: 1300px) {
+  header .BloqueBajoHeader .Eslogan p {
+    font-size: 34px; }
+
+  .main .Paquetes .Bloque .card .card-body .Contenedor1 .BotonGratis {
+    font-size: 22px; }
+    .main .Paquetes .Bloque .card .card-body .Contenedor1 .BotonGratis .rebajado {
+      font-size: 22px; }
+    .main .Paquetes .Bloque .card .card-body .Contenedor1 .BotonGratis .rebaja {
+      font-size: 22px; }
+  .main .Paquetes .Bloque .card .card-body .Contenedor1 .card-title {
+    font-size: 28px; }
+  .main .Paquetes .Bloque .card .card-body .TextoCurso {
+    font-size: 18px; }
+  .main .Paquetes .Bloque .card .card-body .Contenedor2 .BotonIrAlCurso {
+    font-size: 18px; }
+  .main .MeConoce .BloquePrueba .BloquePruebaHijo .card-body {
+    font-size: 18px; }
+
+  .free .BloqueCentrado .Uno p {
+    font-size: 30px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor1 .card-title {
+    font-size: 28px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Autor {
+    font-size: 18px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .TextoCurso {
+    font-size: 18px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor2 .BotonCardIrAlCurso {
+    font-size: 18px; } }
+@media screen and (max-width: 1100px) {
+  .main .Paquetes .Bloque .card .card-body .Contenedor1 .BotonGratis {
+    font-size: 18px; }
+    .main .Paquetes .Bloque .card .card-body .Contenedor1 .BotonGratis .rebajado {
+      font-size: 18px; }
+    .main .Paquetes .Bloque .card .card-body .Contenedor1 .BotonGratis .rebaja {
+      font-size: 18px; }
+  .main .Paquetes .Bloque .card .card-body .Contenedor1 .card-title {
+    font-size: 28px; }
+  .main .Paquetes .Bloque .card .card-body .TextoCurso {
+    font-size: 18px; }
+  .main .Paquetes .Bloque .card .card-body .Contenedor2 .BotonIrAlCurso {
+    font-size: 18px; } }
+@media screen and (max-width: 1024px) {
+  header .BloqueBajoHeader .Eslogan p {
+    font-size: 34px; }
+
+  .main .Paquetes .Bloque .card .card-body .Contenedor1 .BotonGratis {
+    font-size: 18px; }
+  .main .Paquetes .Bloque .card .card-body .Contenedor1 .card-title {
+    font-size: 28px; }
+  .main .Paquetes .Bloque .card .card-body .TextoCurso {
+    font-size: 18px; }
+  .main .Paquetes .Bloque .card .card-body .Contenedor2 .BotonIrAlCurso {
+    font-size: 18px; }
+  .main .MeConoce .BloquePrueba .BloquePruebaHijo .card-body {
+    font-size: 18px; }
+
+  .free .BloqueCentrado .Uno p {
+    font-size: 30px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor1 .card-title {
+    font-size: 28px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Autor {
+    font-size: 18px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .TextoCurso {
+    font-size: 18px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor2 .BotonCardIrAlCurso {
+    font-size: 18px; } }
+@media screen and (max-width: 1000px) {
+  .main .Paquetes .Bloque .card .card-body {
+    margin-top: 0px; }
+    .main .Paquetes .Bloque .card .card-body .Contenedor1 .BotonGratis {
+      font-size: 20px; }
+      .main .Paquetes .Bloque .card .card-body .Contenedor1 .BotonGratis .rebajado {
+        font-size: 14px; }
+      .main .Paquetes .Bloque .card .card-body .Contenedor1 .BotonGratis .rebaja {
+        font-size: 14px; }
+  .main .BloquePrueba .BloquePruebaHijo .video {
+    height: 470px; }
+  .main .video {
+    height: 210px; } }
+@media screen and (max-width: 979px) {
+  header .BloqueBajoHeader .Eslogan p {
+    font-size: 27px; }
+  header .BloqueBajoHeader .Texto .BotonIniciar {
+    font-size: 25px; } }
+@media screen and (max-width: 975px) {
+  .main .BloquePrueba .BloquePruebaHijo .video {
+    height: 210px; } }
+@media screen and (max-width: 950px) {
+  .main .video {
+    height: 200px; } }
+@media screen and (max-width: 906px) {
+  .main .Paquetes .Bloque .card .card-body .Contenedor1 .card-title {
+    font-size: 22px; } }
+@media screen and (max-width: 904px) {
+  header .BloqueBajoHeader .Eslogan p {
+    font-size: 25px; }
+
+  .main .video {
+    height: 180px; }
+  .main .BloquePrueba .BloquePruebaHijo .video {
+    height: 200px; }
+  .main .BloquePrueba .BloquePruebaHijo .SobreMi {
+    font-size: 20px; }
+  .main .BloquePrueba .BloquePruebaHijo .card-text {
+    font-size: 12px; }
+  .main .Paquetes .Contenedor1 .BotonGratis {
+    font-weight: 1000;
+    color: #f44611;
+    cursor: default;
+    font-size: 20px; }
+    .main .Paquetes .Contenedor1 .BotonGratis .rebaja {
+      text-decoration: line-through;
+      font-size: 10px; } }
+@media screen and (max-width: 864px) {
+  .free .BloqueCentrado .Uno p {
+    font-size: 20px; }
+  .free .BloqueCentrado .Uno .UnoHijo .video {
+    height: 250px; } }
+@media screen and (max-width: 854px) {
+  header .BloqueBajoHeader .Eslogan p {
+    font-size: 28px; }
+
+  .free .BloqueCentrado .Uno p {
+    font-size: 28px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor1 .card-title {
+    font-size: 20px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor1 p {
+    font-size: 18px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Autor {
+    font-size: 15px;
+    margin-bottom: 5px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .TextoCurso {
+    font-size: 15px;
+    margin-bottom: 5px; }
+
+  .main .Paquetes .Bloque .card .card-body .Contenedor1 .BotonGratis {
+    font-size: 13px; }
+    .main .Paquetes .Bloque .card .card-body .Contenedor1 .BotonGratis .rebajado {
+      font-size: 12px; }
+    .main .Paquetes .Bloque .card .card-body .Contenedor1 .BotonGratis .rebaja {
+      font-size: 12px; }
+  .main .Paquetes .Bloque .card .card-body .TextoCurso {
+    font-size: 16px; }
+  .main .Paquetes .Bloque .card .card-body .Contenedor2 .BotonIrAlCurso {
+    font-size: 16px; }
+  .main .MeConoce .BloquePrueba .BloquePruebaHijo {
+    width: 45%; }
+    .main .MeConoce .BloquePrueba .BloquePruebaHijo .card .SobreMi {
+      font-size: 22px; }
+    .main .MeConoce .BloquePrueba .BloquePruebaHijo .card-body .TextoPresentacion {
+      font-size: 16px; } }
+@media screen and (max-width: 828px) {
+  header .BloqueBajoHeader .Eslogan p {
+    font-size: 26px; }
+
+  .main .Paquetes .Contenedor1 .BotonGratis {
+    font-weight: 1000;
+    color: #f44611;
+    cursor: default;
+    font-size: 20px; }
+    .main .Paquetes .Contenedor1 .BotonGratis .rebaja {
+      text-decoration: line-through;
+      font-size: 18px; }
+    .main .Paquetes .Contenedor1 .BotonGratis .rebajado {
+      font-size: 18px; } }
+@media screen and (max-width: 870px) {
+  .main .Paquetes .Bloque .card .card-body .Contenedor1 .BotonGratis {
+    font-weight: 1000;
+    color: #f44611;
+    cursor: default;
+    font-size: 15px; }
+    .main .Paquetes .Bloque .card .card-body .Contenedor1 .BotonGratis .rebaja {
+      text-decoration: line-through;
+      font-size: 13px; }
+    .main .Paquetes .Bloque .card .card-body .Contenedor1 .BotonGratis .rebajado {
+      font-size: 13px; } }
+@media screen and (max-width: 767px) {
+  header .BloqueBajoHeader .Eslogan p {
+    font-size: 40px; }
+  header .BloqueBajoHeader .Texto .BotonIniciar {
+    font-size: 28px; }
+
+  .free .BloqueCentrado .Uno p {
+    font-size: 30px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor1 .card-title {
+    font-size: 15px;
+    margin-bottom: 5px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor1 p {
+    font-size: 14px;
+    margin-bottom: 5px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Autor {
+    font-size: 13px;
+    margin-bottom: 4px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .TextoCurso {
+    font-size: 13px;
+    margin-bottom: 8px; }
+
+  .main .video {
+    height: 400px; }
+  .main .Contenedor1 h3 {
+    font-size: 1.5em; }
+  .main .Contenedor1 .BotonGratis {
+    font-size: 20px; }
+  .main .Contenedor2 .BotonIrAlCurso {
+    font-size: 20px; }
+  .main .Autor {
+    font-size: 18px; }
+  .main .TextoCurso {
+    font-size: 18px; }
+  .main .Bloque {
+    margin: 20px 0px; }
+  .main .BloquePrueba .BloquePruebaHijo {
+    width: 100%; }
+    .main .BloquePrueba .BloquePruebaHijo .video {
+      height: 400px; }
+    .main .BloquePrueba .BloquePruebaHijo .SobreMi {
+      color: #603085;
+      font-weight: 500;
+      font-size: 25px; }
+    .main .BloquePrueba .BloquePruebaHijo .TextoPresentacion {
+      font-size: 15px; }
+
+  .main .MeConoce .BloquePrueba .BloquePruebaHijo {
+    width: 80%; }
+    .main .MeConoce .BloquePrueba .BloquePruebaHijo .card .SobreMi {
+      font-size: 30px; }
+    .main .MeConoce .BloquePrueba .BloquePruebaHijo .card .card-body .TextoPresentacion {
+      font-size: 18px; }
+
+  .main .Paquetes .Bloque .card .card-body .Contenedor1 .BotonGratis {
+    font-size: 25px; }
+    .main .Paquetes .Bloque .card .card-body .Contenedor1 .BotonGratis .rebajado {
+      font-size: 25px; }
+    .main .Paquetes .Bloque .card .card-body .Contenedor1 .BotonGratis .rebaja {
+      font-size: 25px; }
+  .main .Paquetes .Bloque .card .card-body .TextoCurso {
+    font-size: 18px; }
+  .main .Paquetes .Bloque .card .card-body .Contenedor2 .BotonIrAlCurso {
+    font-size: 18px; } }
+@media screen and (max-width: 700px) {
+  footer .Iconos a {
+    font-size: 20px;
+    padding: 9px;
+    margin: 0px 40px; } }
+@media screen and (max-width: 685px) {
+  .main .BloquePrueba .BloquePruebaHijo .video {
+    height: 380px; } }
+@media screen and (max-width: 673px) {
+  header .BloqueBajoHeader .Eslogan p {
+    font-size: 29px; }
+  header .BloqueBajoHeader .Texto {
+    padding: 21px 0px; }
+    header .BloqueBajoHeader .Texto .BotonIniciar {
+      font-size: 1.5em; } }
+@media screen and (max-width: 660px) {
+  header .MenuNav {
+    font-size: 1em; }
+    header .MenuNav .Elementos a {
+      font-size: 12px; } }
+@media screen and (max-width: 644px) {
+  header .BloqueBajoHeader .Eslogan p {
+    font-size: 26px; }
+  header .BloqueBajoHeader .Texto .BotonIniciar {
+    font-size: 1.3em; }
+
+  .main .BloquePrueba .BloquePruebaHijo .video {
+    height: 350px; }
+  .main .Bloque .video {
+    height: 365px; } }
+@media screen and (max-width: 600px) {
+  header .BloqueBajoHeader .Texto {
+    padding: 20px 0px; }
+    header .BloqueBajoHeader .Texto .BotonIniciar {
+      font-size: 1.2em; }
+
+  footer .Iconos .TituloContacto2 {
+    font-size: 22px; }
+
+  .main .BloquePrueba .BloquePruebaHijo .video {
+    height: 327px; }
+  .main .Bloque .Contenedor1 .BotonGratis {
+    font-size: 17px; }
+  .main .Bloque .Contenedor2 .BotonIrAlCurso {
+    font-size: 17px; } }
+@media screen and (max-width: 580px) {
+  .main .Bloque .video {
+    height: 318px; } }
+@media screen and (max-width: 575px) {
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor1 .card-title {
+    font-size: 20px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor1 p {
+    font-size: 18px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Autor {
+    font-size: 16px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .TextoCurso {
+    font-size: 16px; } }
+@media screen and (max-width: 564px) {
+  header .BloqueBajoHeader .Eslogan p {
+    font-size: 25px; }
+
+  .main .BloquePrueba .BloquePruebaHijo .video {
+    height: 308px; }
+
+  footer .Iconos a {
+    font-size: 16px;
+    padding: 9px;
+    margin: 0px 37px;
+    width: 43px; } }
+@media screen and (max-width: 546px) {
+  header .BloqueBajoHeader .Eslogan p {
+    font-size: 24px; } }
+@media screen and (max-width: 528px) {
+  .main .Bloque .video {
+    height: 289px; }
+  .main .BloquePrueba .BloquePruebaHijo .video {
+    height: 288px; }
+
+  header .BloqueBajoHeader .Eslogan p {
+    font-size: 23px; } }
+@media screen and (max-width: 517px) {
+  .free .BloqueCentrado .Uno .UnoHijo .video {
+    height: 200px; } }
+@media screen and (max-width: 510px) {
+  header .BloqueBajoHeader {
+    margin: 0.5em -1.2em; }
+    header .BloqueBajoHeader .Eslogan p {
+      font-size: 22px; }
+
+  .main .Bloque .Contenedor1 .BotonGratis {
+    font-size: 15px; }
+  .main .Bloque .Contenedor2 .BotonIrAlCurso {
+    font-size: 15px; }
+
+  footer .Contacto .CentradoNumero a {
+    font-size: 18px; } }
+@media screen and (max-width: 492px) {
+  header .BloqueBajoHeader .Eslogan {
+    padding: 2em 4em 0.7em 4em; }
+    header .BloqueBajoHeader .Eslogan p {
+      font-size: 21px; }
+  header .BloqueBajoHeader .Texto {
+    padding: 20px 0px; }
+    header .BloqueBajoHeader .Texto .BotonIniciar {
+      font-size: 1.1em; }
+
+  .main .Bloque .Contenedor1 h3 {
+    font-size: 1.4em; }
+  .main .Bloque .Contenedor1 .BotonGratis {
+    font-size: 14px; }
+  .main .Bloque .Contenedor2 .BotonIrAlCurso {
+    font-size: 14px; }
+  .main .Bloque .video {
+    height: 269px; }
+  .main .BloquePrueba .BloquePruebaHijo .video {
+    height: 267px; } }
+@media screen and (max-width: 473px) {
+  header .BloqueBajoHeader .Eslogan p {
+    font-size: 20px; } }
+@media screen and (max-width: 455px) {
+  header .BloqueBajoHeader .Eslogan p {
+    font-size: 19px; }
+
+  .main .Bloque .video {
+    height: 249px; }
+  .main .BloquePrueba .BloquePruebaHijo .video {
+    height: 247px; } }
+@media screen and (max-width: 437px) {
+  header .BloqueBajoHeader .Eslogan p {
+    font-size: 18px; }
+
+  footer .Contacto .CentradoNumero {
+    flex-direction: column; }
+    footer .Contacto .CentradoNumero p {
+      font-size: 18px; } }
+@media screen and (max-width: 425px) {
+  header .BloqueBajoHeader .Eslogan p {
+    font-size: 40px; }
+  header .BloqueBajoHeader .Texto .BotonIniciar {
+    font-size: 25px; }
+
+  .main .Bloque .Contenedor1 h3 {
+    font-size: 20px; }
+  .main .Bloque .Autor {
+    font-size: 13px; }
+  .main .Bloque .TextoCurso {
+    font-size: 13px; }
+  .main .MeConoce .BloquePrueba .BloquePruebaHijo {
+    width: 100%; }
+
+  .free .BloqueCentrado .Uno .UnoHijo .video {
+    height: 238px; }
+  .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard {
+    padding: 10px 34px; }
+    .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor1 p {
+      font-size: 18px;
+      margin-bottom: 15px; }
+    .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor1 .card-title {
+      margin-bottom: 15px;
+      font-size: 22px; }
+    .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Autor {
+      font-size: 18px;
+      margin-bottom: 15px; }
+    .free .BloqueCentrado .Dos .CardPrecio .CuerpoCard .TextoCurso {
+      font-size: 20px; } }
+@media screen and (max-width: 400px) {
+  .main .Bloque .video {
+    height: 217px; }
+  .main .BloquePrueba .BloquePruebaHijo .video {
+    height: 217px; }
+
+  footer .Contacto .CentradoNumero p {
+    font-size: 16px; }
+
+  .free .BloqueCentrado .Uno .UnoHijo .video {
+    height: 221px; } }
+@media screen and (max-width: 375px) {
+  header .MenuNav .Elementos .dropdown-item {
+    white-space: normal; }
+  header .BloqueBajoHeader .Eslogan p {
+    font-size: 35px; }
+
+  .free .BloqueCentrado .Uno p {
+    font-size: 27px; }
+  .free .BloqueCentrado .Uno .UnoHijo .video {
+    height: 206px; } }
+@media screen and (max-width: 360px) {
+  .main .Bloque .video {
+    height: 195px; }
+  .main .Bloque .Contenedor1 h3 {
+    font-size: 16px; }
+  .main .Bloque .Contenedor1 .BotonGratis {
+    font-size: 12px; }
+  .main .Bloque .Contenedor2 .BotonIrAlCurso {
+    font-size: 12px; }
+  .main .BloquePrueba .BloquePruebaHijo .video {
+    height: 195px; }
+  .main .BloquePrueba .BloquePruebaHijo .SobreMi {
+    font-size: 20px; }
+  .main .BloquePrueba .BloquePruebaHijo .TextoPresentacion {
+    font-size: 13px; }
+
+  footer .Contacto .TituloContacto {
+    font-size: 20px; }
+  footer .Iconos .TituloContacto2 {
+    font-size: 20px; } }
+@media screen and (max-width: 350px) {
+  header .MenuNav {
+    font-size: 0.9em; } }
+@media screen and (max-width: 339px) {
+  footer .Iconos a {
+    font-size: 15px;
+    padding: 9px;
+    margin: 0px 24px;
+    width: 41px; }
+  footer .Contacto .CentradoNumero p {
+    font-size: 15px; }
+  footer .Contacto .Correo {
+    font-size: 15px; } }
+@media screen and (max-width: 345px) {
+  header .BloqueBajoHeader {
+    margin: 0.1em -1.2em; }
+    header .BloqueBajoHeader .Eslogan {
+      padding: 32px 64px 0.7em 64px; }
+      header .BloqueBajoHeader .Eslogan p {
+        font-size: 28px; }
+    header .BloqueBajoHeader .Texto {
+      padding: 20px 0px; }
+      header .BloqueBajoHeader .Texto .BotonIniciar {
+        font-size: 22px; }
+  header .MenuNav .Elementos .dropdown-item {
+    white-space: normal; }
+
+  .main .Bloque .video {
+    height: 173px; }
+  .main .BloquePrueba .BloquePruebaHijo .video {
+    height: 173px; }
+  .main .MeConoce .BloquePrueba .BloquePruebaHijo .card-body .TextoPresentacion {
+    text-align: left; }
+
+  footer .Contacto .Correo {
+    font-size: 22px; }
+
+  .free .BloqueCentrado .Uno p {
+    font-size: 24px; }
+  .free .BloqueCentrado .Uno .UnoHijo .video {
+    height: 176px; } }
+@media screen and (max-width: 312px) {
+  footer .Contacto .CentradoNumero p {
+    font-size: 14px; }
+  footer .Contacto .Correo {
+    font-size: 20px; } }
+@media screen and (max-width: 297px) {
+  .free .BloqueCentrado .Uno .UnoHijo .video {
+    height: 161px; }
+
+  .main .Paquetes .Bloque .card .card-body {
+    margin-top: 0px; }
+    .main .Paquetes .Bloque .card .card-body .Contenedor1 .BotonGratis {
+      font-size: 20px; }
+      .main .Paquetes .Bloque .card .card-body .Contenedor1 .BotonGratis .rebajado {
+        font-size: 15px; }
+      .main .Paquetes .Bloque .card .card-body .Contenedor1 .BotonGratis .rebaja {
+        font-size: 15px; } }
+@media screen and (max-width: 293px) {
+  header .BloqueBajoHeader .Eslogan p {
+    font-size: 25px; }
+  header .BloqueBajoHeader .Texto .BotonIniciar {
+    font-size: 20px; }
+
+  .main .Bloque .Contenedor1 h3 {
+    font-size: 16px; }
+  .main .Bloque .Autor {
+    font-size: 12px; }
+  .main .Bloque .TextoCurso {
+    font-size: 12px; }
+
+  footer .Contacto .CentradoNumero p {
+    font-size: 13px; }
+  footer .Contacto .Correo {
+    font-size: 18px; } }
+@media screen and (max-width: 268px) {
+  header .BloqueBajoHeader .Eslogan p {
+    font-size: 22px; }
+  header .BloqueBajoHeader .Texto .BotonIniciar {
+    font-size: 22px; }
+
+  footer .Contacto .CentradoNumero p {
+    font-size: 22px; }
+  footer .Contacto .Correo {
+    font-size: 18px; } }
+
+/*# sourceMappingURL=estilos.css%7D.map */

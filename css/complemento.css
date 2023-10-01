@@ -1,0 +1,351 @@
+.ContenedorGeneral .free .BloqueCentrado .Uno .UnoHijo iframe{
+    width: 100%;
+    height: 620px;
+}
+.main .Paquetes iframe{
+    height: 300px;
+}
+.MeConoce iframe{
+    height: 380px;
+}
+
+@media screen and (min-width:2560px){
+    .ContenedorGeneral .free .BloqueCentrado .Uno .UnoHijo iframe{
+        height: 740px; 
+        width: 80%; 
+    }
+    .main .Paquetes iframe{
+        height: 455px;
+    }
+    .MeConoce iframe{
+        height: 560px;
+    }
+}
+@media screen and (max-width:2559px){
+    .ContenedorGeneral .free .BloqueCentrado .Uno .UnoHijo iframe{
+        height: 740px; 
+        width: 80%; 
+    }
+    .main .Paquetes iframe{
+        height: 455px;
+    }
+    .MeConoce iframe{
+        height: 560px;
+    }
+}
+@media screen and (max-width:2400px){
+    .ContenedorGeneral .free .BloqueCentrado .Uno .UnoHijo iframe{
+        height: 700px;  
+    }
+    .main .Paquetes iframe{
+        height: 425px;
+    }
+    .MeConoce iframe{
+        height: 520px;
+    }
+}
+@media screen and (max-width:2200px){
+    .ContenedorGeneral .free .BloqueCentrado .Uno .UnoHijo iframe{
+        height: 635px; 
+    }
+    .main .Paquetes iframe{
+        height: 390px;
+    }
+    .MeConoce iframe{
+        height: 480px;
+    }
+}
+@media screen and (max-width:2000px){
+    .ContenedorGeneral .free .BloqueCentrado .Uno .UnoHijo iframe{
+        height: 580px; 
+    }
+    .main .Paquetes iframe{
+        height: 350px;
+    }
+    .MeConoce iframe{
+        height: 450px;
+    }
+}
+@media screen and (max-width:1800px){
+    .ContenedorGeneral .free .BloqueCentrado .Uno .UnoHijo iframe{
+        height: 520px;  
+    }
+    .main .Paquetes iframe{
+        height: 320px;
+    }
+    .MeConoce iframe{
+        height: 390px;
+    }
+}
+@media screen and (max-width:1600px){
+    .ContenedorGeneral .free .BloqueCentrado .Uno .UnoHijo iframe{
+        height: 520px; 
+        width: 90%; 
+    }
+    .main .Paquetes iframe{
+        height: 290px;
+    }
+    .MeConoce iframe{
+        height: 350px;
+    }
+}
+@media screen and (max-width:1500px){
+    .ContenedorGeneral .free .BloqueCentrado .Uno .UnoHijo iframe{
+        height: 490px; 
+        width: 90%; 
+    }
+    .main .Paquetes iframe{
+        height: 265px;
+    }
+    .MeConoce iframe{
+        height: 335px;
+    }
+}
+@media screen and (max-width:1440px){
+    .ContenedorGeneral .free .BloqueCentrado .Uno .UnoHijo iframe{
+        height: 465px; 
+    }
+    .main .Paquetes iframe{
+        height: 250px;
+    }
+    .MeConoce iframe{
+        height: 320px;
+    }
+}
+@media screen and (max-width:1400px){
+    .ContenedorGeneral .free .BloqueCentrado .Uno .UnoHijo iframe{
+        height: 460px; 
+    }
+    .main .Paquetes iframe{
+        height: 250px;
+    }
+    .MeConoce iframe{
+        height: 320px;
+    }
+}
+
+@media screen and (max-width:1300px){
+    .ContenedorGeneral .free .BloqueCentrado .Uno .UnoHijo iframe{
+        height: 420px;  
+    }
+    .main .Paquetes iframe{
+        height: 230px;
+    }
+    .MeConoce iframe{
+        height: 290px;
+    }
+}
+@media screen and (max-width:1200px){
+    .ContenedorGeneral .free .BloqueCentrado .Uno .UnoHijo iframe{
+        height: 430px; 
+        width: 100%; 
+    }
+    .main .Paquetes iframe{
+        height: 210px;
+    }
+    .MeConoce iframe{
+        height: 260px;
+    }
+}
+@media screen and (max-width:1100px){
+    .ContenedorGeneral .free .BloqueCentrado .Uno .UnoHijo iframe{
+        height: 395px; 
+    }
+    .main .Paquetes iframe{
+        height: 190px;
+    }
+    .MeConoce iframe{
+        height: 240px;
+    }
+}
+@media screen and (max-width:1065px){
+    .ContenedorGeneral .free .BloqueCentrado .Uno .UnoHijo iframe{
+        height: 380px; 
+    }
+    .main .Paquetes iframe{
+        height: 180px;
+    }
+    .MeConoce iframe{
+        height: 235px;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .ContenedorGeneral .free .BloqueCentrado .Uno .UnoHijo iframe{
+        height: 370px; 
+    }
+    .main .Paquetes iframe{
+        height: 180px;
+    }
+    .MeConoce iframe{
+        height: 220px;
+    }
+}
+@media screen and (max-width:1000px){
+    .ContenedorGeneral .free .BloqueCentrado .Uno .UnoHijo iframe{
+        height: 360px;  
+    }
+    .main .Paquetes iframe{
+        height: 180px;
+    }
+}
+@media screen and (max-width:850px){
+    .ContenedorGeneral .free .BloqueCentrado .Uno .UnoHijo iframe{
+        height: 300px;  
+    }
+    .main .Paquetes iframe{
+        height: 140px;
+    }
+    .MeConoce iframe{
+        height: 210px;
+    }
+}
+@media screen and (max-width:768px){
+    .ContenedorGeneral .free .BloqueCentrado .Uno .UnoHijo iframe{
+        height: 280px;  
+    }
+    .MeConoce iframe{
+        height: 190px;
+    }
+}
+@media screen and (max-width:767px){
+    .main .Paquetes iframe{
+        height: 420px;
+    }
+    .MeConoce iframe{
+        height: 340px;
+    }
+}
+@media screen and (max-width:700px){
+    .ContenedorGeneral .free .BloqueCentrado .Uno .UnoHijo iframe{
+        height: 250px;  
+    }
+    .main .Paquetes iframe{
+        height: 380px;
+    }
+    .MeConoce iframe{
+        height: 310px;
+    }
+}
+@media screen and (max-width:600px){
+    .ContenedorGeneral .free .BloqueCentrado .Uno .UnoHijo iframe{
+        height: 200px;  
+    }
+    .main .Paquetes iframe{
+        height: 330px;
+    }
+    .MeConoce iframe{
+        height: 260px;
+    }
+}
+
+/*Cambio de posicion para video principal*/
+@media screen and (max-width:575px){
+    .ContenedorGeneral .free .BloqueCentrado .Uno .UnoHijo iframe{
+        height: 320px;  
+    }
+    .main .Paquetes iframe{
+        height: 320px;
+    }
+    .MeConoce iframe{
+        height: 250px;
+    }
+}
+@media screen and (max-width:500px){
+    .ContenedorGeneral .free .BloqueCentrado .Uno .UnoHijo iframe{
+        height: 280px;  
+    }
+    .main .Paquetes iframe{
+        height: 270px;
+    }
+    .MeConoce iframe{
+        height: 220px;
+    }
+}
+@media screen and (max-width:425px){
+    .ContenedorGeneral .free .BloqueCentrado .Uno .UnoHijo iframe{
+        height: 230px;  
+    }
+    .main .Paquetes iframe{
+        height: 230px;
+    }
+    .MeConoce iframe{
+        height: 230px;
+    }
+}
+@media screen and (max-width:400px){
+    .ContenedorGeneral .free .BloqueCentrado .Uno .UnoHijo iframe{
+        height: 220px;  
+    }
+    .main .Paquetes iframe{
+        height: 220px;
+    }
+}
+@media screen and (max-width:375px){
+    .ContenedorGeneral .free .BloqueCentrado .Uno .UnoHijo iframe{
+        height: 210px;  
+    }
+    .main .Paquetes iframe{
+        height: 210px;
+    }
+    .MeConoce iframe{
+        height: 210px;
+    }
+
+}
+@media screen and (max-width:350px){
+    .ContenedorGeneral .free .BloqueCentrado .Uno .UnoHijo iframe{
+        height: 200px;  
+    }
+    .main .Paquetes iframe{
+        height: 190px;
+    }
+    .MeConoce iframe{
+        height: 190px;
+    }
+}
+@media screen and (max-width:320px){
+    .ContenedorGeneral .free .BloqueCentrado .Uno .UnoHijo iframe{
+        height: 180px;  
+    }
+    .main .Paquetes iframe{
+        height: 180px;
+    }
+    .MeConoce iframe{
+        height: 180px;
+    }
+}
+@media screen and (max-width:300px){
+    .ContenedorGeneral .free .BloqueCentrado .Uno .UnoHijo iframe{
+        height: 160px;  
+    }
+    .main .Paquetes iframe{
+        height: 165px;
+    }
+    .MeConoce iframe{
+        height: 165px;
+    }
+}
+@media screen and (max-width:250px){
+    .ContenedorGeneral .free .BloqueCentrado .Uno .UnoHijo iframe{
+        height: 140px;  
+    }
+    .main .Paquetes iframe{
+        height: 140px;
+    }
+    .MeConoce iframe{
+        height: 140px;
+    }
+}
+@media screen and (max-width:200px){
+    .ContenedorGeneral .free .BloqueCentrado .Uno .UnoHijo iframe{
+        height: 110px;  
+    }
+    .main .Paquetes iframe{
+        height: 110px;
+    }
+    .MeConoce iframe{
+        height: 110px;
+    }
+}
+
